@@ -4,7 +4,7 @@
 The official Python Reddit API Wrapper is a powerful Reddit scraping tool that allows us to:
 - [Scrape subreddits](https://praw.readthedocs.io/en/stable/code_overview/models/subreddit.html).
 - [Scrape Redditors](https://praw.readthedocs.io/en/stable/code_overview/models/redditor.html).
-- [Scrape the submission comments](https://praw.readthedocs.io/en/stable/code_overview/models/submission.html).
+- [Scrape the submission comments](https://praw.readthedocs.io/en/stable/code_overview/models/more.html).
 
 To set up a read-only [Reddit instance](https://praw.readthedocs.io/en/stable/code_overview/reddit_instance.html), you need three pieces of information:
 - Client id
