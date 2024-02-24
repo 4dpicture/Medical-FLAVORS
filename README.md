@@ -1,6 +1,6 @@
 # Introduction to PRAW
 
-[PRAW](https://praw.readthedocs.io/en/stable/index.html) is a Python module that offers simple access to Reddit's API while following all [API standards](https://www.reddit.com/wiki/api/). 
+[PRAW](https://praw.readthedocs.io/en/stable/index.html) is a Python module that offers simple access to Reddit's API while following all [API standards](https://github.com/reddit-archive/reddit/wiki/API#rules). 
 The official Python Reddit API Wrapper is a powerful Reddit scraping tool that allows us to:
 - Scrape subreddits.
 - Scrape Redditors.
