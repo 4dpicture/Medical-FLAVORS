@@ -1,0 +1,4478 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <https://w3id.org/framester/metanet/schema/> .
+@prefix ns2: <http://www.semanticweb.org/user/flavors/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:ABILITY_TO_EVALUATE_GOVERNMENT_IS_ABILITY_TO_SEE ns1:hasSourceDomain ns1:Seeing ;
+    ns1:hasTargetDomain ns1:Citizen_evaluation_of_government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ABILITY_TO_EVALUATE_IS_ABILITY_TO_SEE ns1:hasSourceDomain ns1:Seeing ;
+    ns1:hasTargetDomain ns1:Evaluation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ABILITY_TO_KNOW_IS_ABILITY_TO_SEE ns1:hasSourceDomain ns1:Seeing ;
+    ns1:hasTargetDomain ns1:Knowing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ABUSIVE_POLITICAL_LEADERS_ARE_PHYSICAL_BULLIES ns1:hasSourceDomain ns1:Bully ;
+    ns1:hasTargetDomain ns1:State_leadership ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACCEPTING_IS_SWALLOWING ns1:hasSourceDomain ns1:Eating ;
+    ns1:hasTargetDomain ns1:Considering ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACCESS_TO_EDUCATION_IS_ACCESS_TO_AN_OBJECT ns1:hasSourceDomain ns1:Access_to_an_object ;
+    ns1:hasTargetDomain ns1:Access_to_education ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACCESS_TO_KNOWLEDGE_IS_ACCESS_TO_AN_OBJECT ns1:hasSourceDomain ns1:Access_to_an_object ;
+    ns1:hasTargetDomain ns1:Access_to_knowledge ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACCOMPANY_IS_BEING_BEHIND a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv7 ;
+    ns1:hasExample "Lo que mencionas de \"lo que necesites avisa\" se borran todos, solo mi familia estuvo detrás." ;
+    ns1:hasSourceDomain ns1:Proximity ;
+    ns1:hasTargetDomain ns1:Accompany ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:ACCOMPANY_IS_BEING_BY_THE_SIDE a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv7,
+        ns1:s7s5jv8 ;
+    ns1:hasExample "Tu novia va a pasar por miles capaz, muchas veces sufre tanto el enfermo como el que está al lado.",
+        "espero realmente que sigas a su lado y sepas que podes hacer todo el quilombo que quieras para poder buscar lo mejor para ella." ;
+    ns1:hasSourceDomain ns1:Proximity ;
+    ns1:hasTargetDomain ns1:Accompany ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:ACHIEVING_A_PURPOSE_IS_ACQUIRING_A_DESIRED_OBJECT ns1:hasSourceDomain ns1:Gain_possession ;
+    ns1:hasTargetDomain ns1:Purposeful_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACHIEVING_A_PURPOSE_IS_REACHING_A_DESTINATION ns1:hasSourceDomain ns1:Self_propelled_motion_to_a_destination ;
+    ns1:hasTargetDomain ns1:Purposeful_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACHIEVING_GUN_RIGHTS_IS_REACHING_A_DESTINATION ns1:hasSourceDomain ns1:Motion_to_a_location ;
+    ns1:hasTargetDomain ns1:Gun_rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACHIEVING_POWER_IS_MOVING_UPWARDS ns1:hasSourceDomain ns1:Upward_motion ;
+    ns1:hasTargetDomain ns1:Power ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACQUIRING_IDEAS_IS_EATING ns1:hasSourceDomain ns1:Eating ;
+    ns1:hasTargetDomain ns1:Thinking_about ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACTION_IS_BEING_IN_A_LOCATION ns1:hasSourceDomain ns1:Being_at_a_location ;
+    ns1:hasTargetDomain ns1:Action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACTION_IS_MOTION ns1:hasSourceDomain ns1:Motion ;
+    ns1:hasTargetDomain ns1:Action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACTION_IS_MOTION_ALONG_A_PATH ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACTION_IS_SELF-PROPELLED_MOTION_ALONG_A_PATH ns1:hasSourceDomain ns1:Self_propelled_motion ;
+    ns1:hasTargetDomain ns1:Action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACTIVATING_IS_AWAKENING ns1:hasSourceDomain ns1:Awakening ;
+    ns1:hasTargetDomain ns1:Activating ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACTIVITIES_ARE_BOUNDED_REGIONS_IN_SPACE ns1:hasSourceDomain ns1:Bounded_region ;
+    ns1:hasTargetDomain ns1:Activity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ACTIVITIES_ARE_JOURNEYS ns1:hasSourceDomain ns1:Journey ;
+    ns1:hasTargetDomain ns1:Activity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ADDRESSING_CRIME_IS_CONTROLLING_AN_ANIMAL ns1:hasSourceDomain ns1:Animal ;
+    ns1:hasTargetDomain ns1:Crime ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ADDRESSING_ECONOMIC_PROBLEMS_IS_TREATING_AN_ILLNESS ns1:hasSourceDomain ns1:Treating_a_physical_affliction ;
+    ns1:hasTargetDomain ns1:Addressing_social_problems ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ADDRESSING_GUN_VIOLENCE_IS_WAGING_WAR ns1:hasSourceDomain ns1:War ;
+    ns1:hasTargetDomain ns1:Injurious_gun_use ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ADDRESSING_POVERTY_IS_TREATING_AN_ILLNESS ns1:hasSourceDomain ns1:Treating_a_physical_affliction ;
+    ns1:hasTargetDomain ns1:Addressing_poverty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ADDRESSING_POVERTY_IS_WAGING_WAR ns1:hasSourceDomain ns1:Physical_combat ;
+    ns1:hasTargetDomain ns1:Addressing_poverty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ADDRESSING_SOCIAL_PROBLEMS_IS_TREATING_AN_ILLNESS ns1:hasSourceDomain ns1:Treating_a_physical_affliction ;
+    ns1:hasTargetDomain ns1:Addressing_social_problems ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ADDRESSING_SOCIAL_PROBLEMS_IS_TREATING_A_PHYSICAL_AFFLICTION ns1:hasSourceDomain ns1:Treating_a_physical_affliction ;
+    ns1:hasTargetDomain ns1:Addressing_social_problems ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ADDRESSING_SOCIAL_PROBLEMS_IS_WAGING_WAR ns1:hasSourceDomain ns1:War ;
+    ns1:hasTargetDomain ns1:Addressing_social_problems ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ADVOCACY_IS_PHYSICAL_COMBAT ns1:hasSourceDomain ns1:Physical_combat ;
+    ns1:hasTargetDomain ns1:Advocacy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ADVOCATING_GUN_CONTROL_IS_INSANITY ns1:hasSourceDomain ns1:Insanity ;
+    ns1:hasTargetDomain ns1:Gun_control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ADVOCATING_GUN_CONTROL_IS_ZEALOTRY ns1:hasSourceDomain ns1:Zealotry ;
+    ns1:hasTargetDomain ns1:Gun_control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AFFECTION_IS_WARMTH ns1:hasSourceDomain ns1:Heat ;
+    ns1:hasTargetDomain ns1:Affection ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AGREEMENT_IS_PHYSICAL_PROXIMITY ns1:hasSourceDomain ns1:Proximity ;
+    ns1:hasTargetDomain ns1:Agreement ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AIDS_TO_ACHIEVING_A_PURPOSE_ARE_AIDS_TO_REACHING_A_DESTINATION ns1:hasSourceDomain ns1:Aids_to_motion ;
+    ns1:hasTargetDomain ns1:Aids_to_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AIDS_TO_IMPROVING_ECONOMIC_STATUS_ARE_TICKETS_TO_A_DESTINATION ns1:hasSourceDomain ns1:Ticket ;
+    ns1:hasTargetDomain ns1:Aids_to_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AIDS_TO_IMPROVING_ECONOMIC_STATUS_IS_AID_TO_UPWARD_MOTION ns1:hasSourceDomain ns1:Aid_to_upward_motion ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AIDS_TO_USING_EDUCATIONAL_OPPORTUNITIES_ARE_AIDS_TO_ACCESSING_LOCATIONS_ALONG_A_PATH ns1:hasSourceDomain ns1:Clear_paths_to_accessing_a_location ;
+    ns1:hasTargetDomain ns1:Educational_opportunities ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AID_TO_KNOWING_IS_A_LIGHT_SOURCE ns1:hasSourceDomain ns1:Seeing ;
+    ns1:hasTargetDomain ns1:Knowing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ALLIANCES_ARE_FRIENDSHIPS ns1:hasSourceDomain ns1:Friendships ;
+    ns1:hasTargetDomain ns1:Alliances ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ALTERNATIVES_ARE_DIFFERENT_AVAILABLE_PATHS ns1:hasSourceDomain ns1:Source_path_goal ;
+    ns1:hasTargetDomain ns1:Decision_making ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ALTERNATIVE_LEGISLATION_IS_ALTERNATIVE_PATH ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Legislation_enactment ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AMOUNT_OF_GUNS_IS_A_FLUID ns1:hasSourceDomain ns1:Fluid_motion ;
+    ns1:hasTargetDomain ns1:Personal_weapon ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AMOUNT_OF_GUN_VIOLENCE_IS_A_FLUID ns1:hasSourceDomain ns1:Fluid_motion ;
+    ns1:hasTargetDomain ns1:Injurious_gun_use ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AMOUNT_OF_POVERTY_IS_SIZE ns1:hasSourceDomain ns1:Size ;
+    ns1:hasTargetDomain ns1:Poverty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AMOUNT_OF_POVERTY_IS_SIZE_OF_GEOGRAPHIC_FEATURE ns1:hasSourceDomain ns1:Geographic_feature ;
+    ns1:hasTargetDomain ns1:Poverty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AMOUNT_OF_PROBLEM_IS_SIZE ns1:hasSourceDomain ns1:Size ;
+    ns1:hasTargetDomain ns1:Problem ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AMOUNT_OF_PROGRESS_IS_AMOUNT_OF_DISTANCE_MOVED ns1:hasSourceDomain ns1:Motion_to_a_destination ;
+    ns1:hasTargetDomain ns1:Purposeful_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AMOUNT_OF_PROGRESS_TOWARD_ENACTING_LEGISLATION_IS_DISTANCE_MOVED_ALONG_A_PATH ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Legislation_enactment ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AMOUNT_OF_RESOURCE_IS_BODY_WEIGHT ns1:hasSourceDomain ns1:Body_weight ;
+    ns1:hasTargetDomain ns1:Resource ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AMOUNT_OF_STATE_IS_SIZE_OF_OBJECT ns1:hasSourceDomain ns1:Size ;
+    ns1:hasTargetDomain ns1:State ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ANALYSIS_OF_SOCIAL_PROBLEMS_IS_DIAGNOSIS_OF_AFFLICTION ns1:hasSourceDomain ns1:Diagnosis_of_affliction ;
+    ns1:hasTargetDomain ns1:Social_problems ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ANALYZING_IS_DISSECTING ns1:hasSourceDomain ns1:Dissect ;
+    ns1:hasTargetDomain ns1:Analysis ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ANGER_IS_FIRE ns1:hasSourceDomain ns1:Fire ;
+    ns1:hasTargetDomain ns1:Anger ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ANGER_IS_HEAT ns1:hasSourceDomain ns1:Heat ;
+    ns1:hasTargetDomain ns1:Anger ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ANGER_IS_INSANITY ns1:hasSourceDomain ns1:Insanity ;
+    ns1:hasTargetDomain ns1:Anger ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ANGER_IS_PRESSURE_IN_A_CONTAINER ns1:hasSourceDomain ns1:Pressure_in_a_container ;
+    ns1:hasTargetDomain ns1:Anger ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ANGER_IS_THE_HEAT_OF_FLUID_IN_A_CONTAINER ns1:hasSourceDomain ns1:Heating_fluid ;
+    ns1:hasTargetDomain ns1:Anger ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ANSWERS_ARE_OBJECTS a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv1 ;
+    ns1:hasExample "Las respuestas que te dan cuando te dicen \"licitaciones\" para que la chupes... pediles data." ;
+    ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Answers ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:ARGUMENT_IS_PHYSICAL_COMBAT ns1:hasSourceDomain ns1:Physical_combat ;
+    ns1:hasTargetDomain ns1:Argument ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ARGUMENT_IS_WAR ns1:hasSourceDomain ns1:War ;
+    ns1:hasTargetDomain ns1:Argument ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ARITHMETIC_IS_OBJECT_CONSTRUCTION ns1:hasSourceDomain ns1:Object_Construction ;
+    ns1:hasTargetDomain ns1:Arithmetic ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ASKING_IS_PHYSICAL_EFFORT a ns1:Metaphor ;
+    ns2:hasExample ns1:robzhn4 ;
+    ns1:hasExample "Yo no sé si es buen o mal medico, lo unico que les recomiendo si les toca (o con cualquier otro tambien seria bueno) revisen TODO lo que escriba, que les explique paso a paso todo lo que escribió. y pregunten lo que se les ocurra, hay que hacer fuerza para preguntar algo, lo que sea... que hay de comer? algo" ;
+    ns1:hasSourceDomain ns1:Strength ;
+    ns1:hasTargetDomain ns1:Ask ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:ASSESSING_IS_MEASURING ns1:hasSourceDomain ns1:Measuring ;
+    ns1:hasTargetDomain ns1:Evaluation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ASSISTANCE_IS_SUPPORT ns1:hasSourceDomain ns1:Support ;
+    ns1:hasTargetDomain ns1:Assistance ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ATTAINING_CONTROL_IS_GAINING_A_POSSESSION ns1:hasSourceDomain ns1:Gain_possession ;
+    ns1:hasTargetDomain ns1:Control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ATTRIBUTES_ARE_ENTITIES ns1:hasSourceDomain ns1:Entity ;
+    ns1:hasTargetDomain ns1:Attribute ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ATTRIBUTES_ARE_POSSESSIONS ns1:hasSourceDomain ns1:Possession ;
+    ns1:hasTargetDomain ns1:Attribute ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ATTRIBUTES_OF_GOVERNMENT_ARE_ENTITIES ns1:hasSourceDomain ns1:Entity ;
+    ns1:hasTargetDomain ns1:Attribute ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:AUGMENTING_ECONOMIC_ASSETS_IS_CREATING_OBJECTS ns1:hasSourceDomain ns1:Create_object ;
+    ns1:hasTargetDomain ns1:Economic_resource ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BAD_DOCTORS_ARE_SHIT a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv9 ;
+    ns1:hasExample "Muchos médicos son así, una cagada" ;
+    ns1:hasSourceDomain ns1:Shit ;
+    ns1:hasTargetDomain ns1:Bad_doctors ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:BAD_IS_STINKY ns1:hasSourceDomain ns1:Disgusting ;
+    ns1:hasTargetDomain ns1:Badness ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BECOMING_IMPOVERISHED_IS_MOVING_DOWNWARDS ns1:hasSourceDomain ns1:Downward_motion ;
+    ns1:hasTargetDomain ns1:Impoverished ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BEING_ABSENT_IS_BEING_ERASED a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv7 ;
+    ns1:hasExample "Lo que mencionas de \"lo que necesites avisa\" se borran todos, solo mi familia estuvo detrás." ;
+    ns1:hasSourceDomain ns1:Erase ;
+    ns1:hasTargetDomain ns1:Absence ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:BEING_ALIVE_IS_BEING_PHYSICALLY_AT_THIS_LOCATION ns1:hasSourceDomain ns1:Being_at_a_location ;
+    ns1:hasTargetDomain ns1:Life_cycle ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BEING_BRAVE_IS_HAVING_TESTICLES a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv6 ;
+    ns1:hasExample "que huevos viejo abrazo grande" ;
+    ns1:hasSourceDomain ns1:Testicles ;
+    ns1:hasTargetDomain ns1:Braveness ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:BEING_CONFUSED_IS_BEING_SPUNG_AROUND a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv7 ;
+    ns1:hasExample "no entiendo porque te están dando las mil vueltas con las drogas" ;
+    ns1:hasSourceDomain ns1:Motion ;
+    ns1:hasTargetDomain ns1:Confusion ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:BEING_GOOD_IS_BEING_UPRIGHT ns1:hasSourceDomain ns1:Upright_posture ;
+    ns1:hasTargetDomain ns1:Moral_goodness ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BEING_IMMORAL_IS_BEING_LOW ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Morality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BEING_IMPOVERISHED_IS_BEING_AT_A_LOW_LOCATION ns1:hasSourceDomain ns1:Being_at_a_Low_Location ;
+    ns1:hasTargetDomain ns1:Impoverished ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BEING_IMPOVERISHED_IS_BEING_IN_A_BOUNDED_REGION ns1:hasSourceDomain ns1:Being_in_a_Bounded_Region ;
+    ns1:hasTargetDomain ns1:Impoverished ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BEING_IN_A_HIGH_SOCIAL_CLASS_IS_BEING_HIGH_ON_A_SCALE ns1:hasSourceDomain ns1:Being_high_on_a_scale ;
+    ns1:hasTargetDomain ns1:Social_class ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BEING_IN_A_LOW_SOCIAL_CLASS_IS_BEING_LOW_ON_A_SCALE ns1:hasSourceDomain ns1:Being_low_on_a_scale ;
+    ns1:hasTargetDomain ns1:Social_class ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BEING_IN_A_MIDDLE_CLASS_IS_BEING_IN_THE_MIDDLE_OF_A_SCALE ns1:hasSourceDomain ns1:Being_in_the_middle_of_a_scale ;
+    ns1:hasTargetDomain ns1:Social_class ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BEING_IN_A_STATE_IS_BEING_AT_A_POINT_ON_A_LINEAR_SCALE ns1:hasSourceDomain ns1:Scale ;
+    ns1:hasTargetDomain ns1:Experiencing_a_state ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BEING_MISTREATED_IS_BEING_TREATED_LIKE_AN_ASS a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv9 ;
+    ns1:hasExample "La quinta neuróloga es mas idiota que la mierda, encima que uno esta asustado te trata como el culo" ;
+    ns1:hasSourceDomain ns1:Ass ;
+    ns1:hasTargetDomain ns1:Being_mistreated ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:BEING_POISED_TO_KNOW_IS_BEING_POSITIONED_TO_SEE_WELL ns1:hasSourceDomain ns1:Directed_vision ;
+    ns1:hasTargetDomain ns1:Knowing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BEING_PSYCHOLOGICALLY_BAD_IS_BEING_MADE_OF_SHIT a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r27 ;
+    ns1:hasExample "a mi mejor amigo le detectaron cáncer testicular en año pasado (tenia 24 años) le extirparon, le hicieron quimio y ahora esta bien físicamente pero psicológicamente esta echo mierda, ahora cualquier molestia o dolor que tiene lo asocia a que el cáncer volvió, además de que es tan inseguro (le tiene un miedo a que le digan que e poco hombre o weas similares) que el perdió el la practica (con posibilidad de contratación) ya que no le dijo nada a su jefe o demás compañeros cuando se estaba haciendo las quimios por lo cual falto varias veces y no lo justifico" ;
+    ns1:hasSourceDomain ns1:Being_made_of_shit ;
+    ns1:hasTargetDomain ns1:Being_psycologically_bad ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:BEING_PSYCHOLOGICALLY_OK_IS_BEING_COMPLETE a ns1:Metaphor ;
+    ns2:hasExample ns1:robzhn11 ;
+    ns1:hasExample "Bueno, perdon por la paja mental...la mejor para ustedes, metele fuerza que ella te va a necesitar entero, te lo digo por experiencia personal, el apoyo animico es super importante." ;
+    ns1:hasSourceDomain ns1:Being_complete ;
+    ns1:hasTargetDomain ns1:Being_psycologically_good ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:BEING_THE_BEST_IS_LEADING a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv3 ;
+    ns1:hasExample "Ahora trabajo en la industria de farma y sé que el Roffo es lider en Onco." ;
+    ns1:hasSourceDomain ns1:Lead ;
+    ns1:hasTargetDomain ns1:Be_the_best ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:BEING_WEALTHY_IS_BEING_AT_A_HIGH_LOCATION ns1:hasSourceDomain ns1:Being_at_a_High_Location ;
+    ns1:hasTargetDomain ns1:Wealth ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BEING_WEALTHY_IS_BEING_FREE ns1:hasSourceDomain ns1:Lack_of_impediment_to_motion ;
+    ns1:hasTargetDomain ns1:Wealth ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BELIEFS_ARE_POSSESSIONS ns1:hasSourceDomain ns1:Possession ;
+    ns1:hasTargetDomain ns1:Belief ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BODY_IS_A_CONTAINER ns1:hasSourceDomain ns1:Container ;
+    ns1:hasTargetDomain ns1:Body ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:BODY_IS_A_CONTAINER_FOR_EMOTIONS ns1:hasSourceDomain ns1:Fluid_containment ;
+    ns1:hasTargetDomain ns1:Emotion ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BODY_IS_CONTAINER a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv9 ;
+    ns1:hasExample "el siguiente le mando medicación no le cayo bien ninguna al tercer cambio se embolo y dijo \"y no se que hacer...\"" ;
+    ns1:metaphorInvestigatedFor ns1:Spanish .
+
+ns1:BUREACRACY_IS_AN_OCTOPUS ns1:hasSourceDomain ns1:Fierce_animal ;
+    ns1:hasTargetDomain ns1:Bureaucracy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BUREACRACY_IS_A_MAZE ns1:hasSourceDomain ns1:Maze ;
+    ns1:hasTargetDomain ns1:Bureaucracy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BUREAUCRACY_IS_A_MACHINE ns1:hasSourceDomain ns1:Machine ;
+    ns1:hasTargetDomain ns1:Bureaucracy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BUREAUCRATS_ARE_FACTORY_WORKERS ns1:hasSourceDomain ns1:Factory ;
+    ns1:hasTargetDomain ns1:Bureaucracy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BUREAUCRATS_ARE_MACHINE_PARTS ns1:hasSourceDomain ns1:Machine ;
+    ns1:hasTargetDomain ns1:Bureaucracy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BUSINESSES_ARE_LIVING_ENTITIES ns1:hasSourceDomain ns1:Animate_entity ;
+    ns1:hasTargetDomain ns1:Business ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:BUSINESS_COMPETITION_IS_COMPETITIVE_SPORTS ns1:hasSourceDomain ns1:Competitive_sport ;
+    ns1:hasTargetDomain ns1:Economic_competition ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CANCER_IS_A_JOURNEY a ns1:Metaphor ;
+    ns2:hasExample ns1:robzhn0,
+        ns1:robzhn2,
+        ns1:s7s5jv7 ;
+    ns1:hasExample "Como ya te dije, abrazo para uds. y fuerza para tu novia que la va a tener que remar pero esperemos que en un tiempo todo esto sea nada más que un mal recuerdo.",
+        "Si bien todavía la cosa no termina, al menos de a poco camina",
+        "Tu novia va a pasar por miles capaz, muchas veces sufre tanto el enfermo como el que está al lado.",
+        "Yo pase por ésto con mi mejor amiga y la quimio lamentablemente es asi, si no te dan algo para la náuseas olvidate, mi amiga estuvo asi 6 meses antes de la operación bajando casi 20kg" ;
+    ns1:hasSourceDomain ns1:Journey ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CANCER_IS_A_STOP_IN_LIFE a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r18 ;
+    ns1:hasExample "Amigo, que bueno que todo salió bien y que estés sanito y puedas seguir con tu vida normal." ;
+    ns1:hasSourceDomain ns1:Stop_in_a_path ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:CANCER_IS_CONTAINER a ns1:Metaphor ;
+    ns2:hasExample ns1:robzhn11,
+        ns1:s7s5jv10,
+        ns1:s7s5jv2 ;
+    ns1:hasExample "A seguir metiendole como sea aunque duela, no tengamos fuerzas o hacer todo solo porque nadie ayuda, por los que más queremos siempre vamos a dar todo.",
+        "Bueno, perdon por la paja mental...la mejor para ustedes, metele fuerza que ella te va a necesitar entero, te lo digo por experiencia personal, el apoyo animico es super importante.",
+        "Metanle ganas que vienen bien" ;
+    ns1:hasSourceDomain ns1:Container ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:CANCER_IS_HELL a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r14 ;
+    ns1:hasExample "Tengo un coincido qué falleció por ese cancer, si bien en el testículos no causa los verdaderos problemas, cuando hace metástasis se convierte en un infierno." ;
+    ns1:hasSourceDomain ns1:Hell ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:CANCER_IS_MURDERER a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r51 ;
+    ns1:hasExample "¿en cuanto tiempo te mata un cáncer testicular?" ;
+    ns1:hasSourceDomain ns1:Murderer ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:CANCER_IS_OBJECT a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r27,
+        ns1:12yxw6r31,
+        ns1:12yxw6r41,
+        ns1:12yxw6r5,
+        ns1:robzhn0,
+        ns1:robzhn10,
+        ns1:robzhn7 ;
+    ns1:hasExample "Ese dolor NO es normal y al ir al urólogo se dieron cuenta que tenían cancer testicular",
+        "Que bueno que no tenías cancer wn",
+        "Sería interesante saber las estadísticas de cáncer de testículo. a un hermano mio le dio (a los 17) y a un amigo a los 42, a otro amigo le salieron quistes, y tengo como 4 amigos no+. ¿Alguien tiene el dato? ",
+        "Si bien todavía la cosa no termina, al menos de a poco camina",
+        "Tuve cáncer testicular y pasé por dos ciclos de quimio, como monotributista de pedo tenía la obra social de unión personal y pude hacer el tratamiento con pocas burocracias e inoperancias.",
+        "Yo tengo tres parientes con cáncer o al menos que tuvieron cáncer, dos abuelos, y un tío.",
+        "lo mas jodido es que su hermano falleció de cáncer a los 19 hace varios años atrás lo cual lo dejo medio traumado y a el literal le dijeron que tenia cáncer justo la semana en la que le toco defender la tesis (también esta paranoico conque su tesis solo se la aprobaron por lastima y pena ya que el le conto a su profe guía sobre esta noticia) " ;
+    ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:CANCER_IS_PERSON a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r27 ;
+    ns1:hasExample "a mi mejor amigo le detectaron cáncer testicular en año pasado (tenia 24 años) le extirparon, le hicieron quimio y ahora esta bien físicamente pero psicológicamente esta echo mierda, ahora cualquier molestia o dolor que tiene lo asocia a que el cáncer volvió, además de que es tan inseguro (le tiene un miedo a que le digan que e poco hombre o weas similares) que el perdió el la practica (con posibilidad de contratación) ya que no le dijo nada a su jefe o demás compañeros cuando se estaba haciendo las quimios por lo cual falto varias veces y no lo justifico",
+        "me a confesado de que si el cáncer vuelve otra ves el se va a pegar un balazo en la cabeza, no quiere vivir con el miedo constante de que va a volver o el estereotipo de que es poco hombre (en una reunió de la familia una prima hizo una broma inocente sobre eso y paso mas de 1 semana encencerrado en su pieza) va desde hace 1 año al psicólogo de oncología pero dice que no le a ayudado en nada " ;
+    ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:CANCER_IS_PHYSICAL_COMBAT ns1:hasSourceDomain ns1:Physical_combat ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CANCER_IS_PLACE a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r14,
+        ns1:12yxw6r18,
+        ns1:12yxw6r7 ;
+    ns1:hasExample "Amigo, que bueno que todo salió bien y que estés sanito y puedas seguir con tu vida normal.",
+        "Estuvo un año con quimioterapia, pero, afortunadamente, todo salió bien",
+        "Tengo un coincido qué falleció por ese cancer, si bien en el testículos no causa los verdaderos problemas, cuando hace metástasis se convierte en un infierno." ;
+    ns1:hasSourceDomain ns1:Place ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:CANCER_IS_PROBLEM a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r36 ;
+    ns1:hasExample "Te explicaron porque? supongo que es la solución mas rapida y tal vez por el riesgo de que se propague. " ;
+    ns1:hasSourceDomain ns1:Problem ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:CANCER_IS_RIVER ns1:hasSourceDomain ns1:River ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:CANCER_IS_SHIT a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r9,
+        ns1:robzhn8 ;
+    ns1:hasExample "La verdad que todo el proceso es una mierda",
+        "Que mierda que es el cancer lpm" ;
+    ns1:hasSourceDomain ns1:Shit ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:CANCER_PATIENT_IS_PHYSICAL_COMBATANT ns1:hasSourceDomain ns1:Physical_combat ;
+    ns1:hasTargetDomain ns1:Cancer_patient ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CANCER_TREATMENT_IS_AGRESSIVE ns1:hasSourceDomain ns1:Agression ;
+    ns1:hasTargetDomain ns1:Cancer_treatment ;
+    ns1:metaphorProvenance ns1:EA .
+
+ns1:CANCER_TREATMENT_IS_AGRESSOR a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv7 ;
+    ns1:hasExample "la droga es irritante, (cisplatino etoposido y bleomicina) has pasado ya tres años y aún cuesta que me encuentren venas para sacar sangre" ;
+    ns1:hasSourceDomain ns1:Agressor ;
+    ns1:hasTargetDomain ns1:Treatment ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:CANCER_TREATMENT_IS_GAMBLING ns1:hasSourceDomain ns1:Gambling ;
+    ns1:hasTargetDomain ns1:Cancer_treatment ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CANCER_TREATMENT_IS_WAR ns1:hasSourceDomain ns1:War ;
+    ns1:hasTargetDomain ns1:Cancer_treatment ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CAREER_IS_A_BUILDING ns1:hasSourceDomain ns1:Building ;
+    ns1:hasTargetDomain ns1:Career ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CAREER_IS_A_COMPLEX_STRUCTURE ns1:hasSourceDomain ns1:Complex_physical_object ;
+    ns1:hasTargetDomain ns1:Career ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CATEGORIES_ARE_BOUNDED_REGIONS ns1:hasSourceDomain ns1:Bounded_region ;
+    ns1:hasTargetDomain ns1:Category ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CAUSATION_IS_AGENTIVE_CAUSATION ns1:hasSourceDomain ns1:Agentive_causation ;
+    ns1:hasTargetDomain ns1:Causation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CAUSATION_IS_OBJECT_TRANSFER ns1:hasSourceDomain ns1:Transfer_scenario ;
+    ns1:hasTargetDomain ns1:Causation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CAUSED_CHANGE_OF_STATE_IS_CAUSED_CHANGE_OF_LOCATION ns1:hasSourceDomain ns1:Forced_motion ;
+    ns1:hasTargetDomain ns1:Caused_change_of_state ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CAUSED_IMPOVERISHMENT_IS_CAUSED_DOWNWARD_MOTION ns1:hasSourceDomain ns1:Caused_downward_motion ;
+    ns1:hasTargetDomain ns1:Poverty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CAUSED_IMPROVED_ECONOMIC_STATUS_IS_CAUSED_UPWARD_MOTION ns1:hasSourceDomain ns1:Caused_upward_motion ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CAUSED_INABILITY_TO_ACT_IS_PREVENTION_OF_MOTION_ALONG_A_PATH ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CAUSES_ARE_FORCES ns1:hasSourceDomain ns1:Force ;
+    ns1:hasTargetDomain ns1:Causation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CAUSE_INCREASE_IN_QUANTITY_IS_CAUSE_UPWARD_MOTION ns1:hasSourceDomain ns1:Caused_upward_motion ;
+    ns1:hasTargetDomain ns1:Quantity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CAUSING_DECREASE_IN_CRIME_IS_TREATING_DISEASE ns1:hasSourceDomain ns1:Disease_treatment ;
+    ns1:hasTargetDomain ns1:Crime ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CAUSING_ECONOMIC_HARDSHIP_IS_CAUSING_PHYSICAL_HARM ns1:hasSourceDomain ns1:Harm_to_living_entity ;
+    ns1:hasTargetDomain ns1:Economic_difficulty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CAUSING_TO_EXIST_IS_OBJECT_CREATION ns1:hasSourceDomain ns1:Create_object ;
+    ns1:hasTargetDomain ns1:Cause_to_begin_existence ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CENSORSHIP_IS_PHYSICAL_RESTRAINING_OF_MOUTH ns1:hasSourceDomain ns1:Physical_Restraining_of_Mouth ;
+    ns1:hasTargetDomain ns1:Censorship ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CERTAIN_IS_FIRM ns1:hasSourceDomain ns1:Firmness ;
+    ns1:hasTargetDomain ns1:Certainty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CHANGE_IN_CONTROLLER_IS_TRANSFER_OF_POSSESSION ns1:hasSourceDomain ns1:Transfer_scenario ;
+    ns1:hasTargetDomain ns1:Control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CHANGE_IN_MOOD_IS_VERTICAL_MOVEMENT ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Emotion ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CHANGE_IS_ACQUISITION ns1:hasSourceDomain ns1:Gain_possession ;
+    ns1:hasTargetDomain ns1:Change_of_state ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CHANGE_IS_LOSS ns1:hasSourceDomain ns1:Lose_possession ;
+    ns1:hasTargetDomain ns1:Change_of_state ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CHANGE_OF_STATE_IS_CHANGE_OF_LOCATION ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Change_of_state ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CHANGE_OF_STATE_IS_CHANGE_OF_POSSESSION ns1:hasSourceDomain ns1:Possession_change ;
+    ns1:hasTargetDomain ns1:Change_of_state ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CHEMOTHERAPY_IS_SHIT a ns1:Metaphor ;
+    ns2:hasExample ns1:robzhn2 ;
+    ns1:hasExample "Mi amiga se curó del cáncer de mama pero lamentablemente ahora, falta la resonancia, tendría cancer de hígado, estoy destrozado pero por suerte conseguimos lugar rápido para que se haga todo de nuevo, si tenemos suerte su oncólogo va a iniciar los trámites para hacerle tratamiento no invasivo y ahorrarse ooootra vez esa quimio de mierda pero como ya sabras es un dolor de pija." ;
+    ns1:hasSourceDomain ns1:Shit ;
+    ns1:hasTargetDomain ns1:Chemotherapy ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:CITIZENS_ARE_EMPLOYERS ns1:hasSourceDomain ns1:Business ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CITIZENS_ARE_EYES_AND_EARS ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CITIZENS_ARE_SLAVES ns1:hasSourceDomain ns1:Servitude ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CITIZEN_RIGHTS_ARE_PHYSICAL_STRUCTURES ns1:hasSourceDomain ns1:Physical_structure ;
+    ns1:hasTargetDomain ns1:Rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CITIZEN_RIGHTS_ARE_POSSESSIONS ns1:hasSourceDomain ns1:Possession ;
+    ns1:hasTargetDomain ns1:Rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CITIZEN_RIGHTS_ARE_SHIELDS_FROM_HARM ns1:hasSourceDomain ns1:Protecting ;
+    ns1:hasTargetDomain ns1:Citizen_rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CITIZEN_RIGHTS_ARE_TERRITORIES ns1:hasSourceDomain ns1:Territory ;
+    ns1:hasTargetDomain ns1:Rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CLASS_INTERACTION_IS_PHYSICAL_COMBAT ns1:hasSourceDomain ns1:Physical_combat ;
+    ns1:hasTargetDomain ns1:Social_class ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COGNITIVE_AVERSION_IS_PHYSICAL_DISGUST ns1:hasSourceDomain ns1:Disgusting ;
+    ns1:hasTargetDomain ns1:Idea ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COGNIZING_IS_BODILY_FUNCTIONING ns1:hasSourceDomain ns1:Cognizing ;
+    ns1:hasTargetDomain ns1:Bodily_functioning ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COGNIZING_IS_EATING ns1:hasSourceDomain ns1:Eating ;
+    ns1:hasTargetDomain ns1:Cognizing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COMMUNICATING_IS_DRAWING_A_PICTURE ns1:hasSourceDomain ns1:Draw_a_picture ;
+    ns1:hasTargetDomain ns1:Communication ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COMMUNICATING_IS_FEEDING ns1:hasSourceDomain ns1:Feeding ;
+    ns1:hasTargetDomain ns1:Communication ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COMMUNICATING_IS_GUIDING ns1:hasSourceDomain ns1:Guided_motion ;
+    ns1:hasTargetDomain ns1:Communication ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COMMUNICATING_IS_OBJECT_TRANSFER ns1:hasSourceDomain ns1:Transfer_scenario ;
+    ns1:hasTargetDomain ns1:Communication ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COMMUNICATING_IS_POINTING ns1:hasSourceDomain ns1:Cause_to_perceive ;
+    ns1:hasTargetDomain ns1:Communication ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COMMUNICATING_IS_SHOWING ns1:hasSourceDomain ns1:Cause_to_see ;
+    ns1:hasTargetDomain ns1:Communication ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COMMUNITY_IS_A_FAMILY ns1:hasSourceDomain ns1:Family ;
+    ns1:hasTargetDomain ns1:Community ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COMPANY_IS_A_COMPLEX_STRUCTURE ns1:hasSourceDomain ns1:Complex_physical_object ;
+    ns1:hasTargetDomain ns1:Company ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COMPANY_IS_A_FAMILY ns1:hasSourceDomain ns1:Family ;
+    ns1:hasTargetDomain ns1:Company ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COMPANY_IS_LOVE_GESTURE a ns1:Metaphor ;
+    ns2:hasExample ns1:robzhn5 ;
+    ns1:hasExample "Buenas che, mucha fuerza para tu novia y gran gesto de amor el tuyo de acompañarla en este momento, te sorprendería cuánta gente se toma el palo cuando la vida se pone difícil." ;
+    ns1:hasSourceDomain ns1:Love_gesture ;
+    ns1:hasTargetDomain ns1:Accompany ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:COMPETITION_IS_A_RACE ns1:hasSourceDomain ns1:Race ;
+    ns1:hasTargetDomain ns1:Competition ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COMPLEX_IDEAS_ARE_SENTENCES ns1:hasSourceDomain ns1:Sentence ;
+    ns1:hasTargetDomain ns1:Idea ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COMPULSION_IS_A_COMPELLING_FORCE ns1:hasSourceDomain ns1:Force ;
+    ns1:hasTargetDomain ns1:Compulsion ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COMPUTERS_ARE_PEOPLE ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Computer ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CONDITION_IS_SHAPE ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Condition ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CONSCIOUSNESS_IS_VERTICALITY ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Consciousness ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CONSCIOUS_IS_UP ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Consciousness ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CONSIDERING_THE_IMPORTANCE_OF_RIGHTS_IS_PLAYING_A_GAME ns1:hasSourceDomain ns1:Card_game ;
+    ns1:hasTargetDomain ns1:Gun_rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CONSTITUENTS_ARE_CONTENTS ns1:hasSourceDomain ns1:Contents ;
+    ns1:hasTargetDomain ns1:Constituents ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CONSUMING_RESOURCES_IS_EATING ns1:hasSourceDomain ns1:Eating ;
+    ns1:hasTargetDomain ns1:Resource_consumption ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CONSUMING_TOO_MANY_RESOURCES_IS_EATING_TOO_MUCH_FOOD ns1:hasSourceDomain ns1:Overeating ;
+    ns1:hasTargetDomain ns1:Resource_consumption ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CONTROL_IS_A_BOUNDED_REGION ns1:hasSourceDomain ns1:Bounded_region ;
+    ns1:hasTargetDomain ns1:Control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CONTROL_IS_A_POSSESSION ns1:hasSourceDomain ns1:Possession ;
+    ns1:hasTargetDomain ns1:Control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CONTROL_IS_OBJECT_MANIPULATION ns1:hasSourceDomain ns1:Object_manipulation ;
+    ns1:hasTargetDomain ns1:Control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CONTROL_IS_PHYSICAL_RESTRAINT ns1:hasSourceDomain ns1:Object_manipulation ;
+    ns1:hasTargetDomain ns1:Control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CONTROL_IS_UP ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CONTROL_IS_VERTICALITY ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COOPERATIVE_NATIONS_ARE_GOOD_CITIZENS ns1:hasSourceDomain ns1:Citizens ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CORPORATIONS_ARE_PEOPLE ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Corporation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CORRUPTION_EFFECT_IS_DISEASE_EFFECT ns1:hasSourceDomain ns1:Disease ;
+    ns1:hasTargetDomain ns1:Corruption ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CORRUPTION_IS_A_DESTRUCTIVE_NATURAL_PROCESS ns1:hasSourceDomain ns1:Destructive_natural_process ;
+    ns1:hasTargetDomain ns1:Corruption ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CORRUPTION_IS_A_DISEASE ns1:hasSourceDomain ns1:Disease ;
+    ns1:hasTargetDomain ns1:Corruption ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CORRUPTION_IS_A_TERMITE_INFESTATION ns1:hasSourceDomain ns1:Parasite ;
+    ns1:hasTargetDomain ns1:Corruption ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CORRUPTION_IS_DECAY ns1:hasSourceDomain ns1:Decay ;
+    ns1:hasTargetDomain ns1:Corruption ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CORRUPTION_IS_EROSION ns1:hasSourceDomain ns1:Erosion ;
+    ns1:hasTargetDomain ns1:Corruption ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:COUNTRY_IS_A_CHILD ns1:hasSourceDomain ns1:Family ;
+    ns1:hasTargetDomain ns1:Country ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CREATING_A_LAW_IS_GROWING_A_PLANT ns1:hasSourceDomain ns1:Tending_to_plants ;
+    ns1:hasTargetDomain ns1:Law ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CREATING_IS_MAKING ns1:hasSourceDomain ns1:Making ;
+    ns1:hasTargetDomain ns1:Creating ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CRIME_IS_AN_ANIMAL ns1:hasSourceDomain ns1:Fierce_animal ;
+    ns1:hasTargetDomain ns1:Crime ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CRIME_IS_A_DISEASE ns1:hasSourceDomain ns1:Disease ;
+    ns1:hasTargetDomain ns1:Crime ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CRITICIZING_IS_ATTACKING ns1:hasSourceDomain ns1:Attacking ;
+    ns1:hasTargetDomain ns1:Criticizing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:CURRICULUM_IS_A_FIXED_PATH ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Curriculum ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DEBATING_IS_ONE-ON-ONE_PHYSICAL_FIGHTING ns1:hasSourceDomain ns1:Physical_combat ;
+    ns1:hasTargetDomain ns1:Debating ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DEBT_IS_AN_ORGANISM ns1:hasSourceDomain ns1:Biological_entity ;
+    ns1:hasTargetDomain ns1:Debt ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DEBT_IS_PHYSICAL_IMPEDIMENTS_TO_MOTION ns1:hasSourceDomain ns1:Motion_impediments ;
+    ns1:hasTargetDomain ns1:Debt ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DECREASE_IN_QUANTITY_IS_DOWNWARD_MOTION ns1:hasSourceDomain ns1:Downward_motion ;
+    ns1:hasTargetDomain ns1:Quantity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DEGREE_IS_DISTANCE_ALONG_A_PATH ns1:hasSourceDomain ns1:Differences_in_distance ;
+    ns1:hasTargetDomain ns1:Degree ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DEGREE_OF_MORALITY_IS_PHYSICAL_HEIGHT ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Morality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DEGREE_OF_SIMILARITY_IS_DEGREE_OF_PROXIMITY ns1:hasSourceDomain ns1:Proximity ;
+    ns1:hasTargetDomain ns1:Similarity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DELAYING_IS_SPINING_AROUND ns1:hasSourceDomain ns1:Motion ;
+    ns1:hasTargetDomain ns1:Delay ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:DELAYING_IS_SPINNING_AROUND a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv7 ;
+    ns1:hasExample "no entiendo porque te están dando las mil vueltas con las drogas" ;
+    ns1:metaphorInvestigatedFor ns1:Spanish .
+
+ns1:DEMOCRACY_IS_AN_EQUAL_PARTNERSHIP ns1:hasSourceDomain ns1:Partnership ;
+    ns1:hasTargetDomain ns1:Democracy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DEMOCRACY_IS_A_BIRD ns1:hasSourceDomain ns1:Bird ;
+    ns1:hasTargetDomain ns1:Democracy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DEMOCRACY_IS_A_FACADE ns1:hasSourceDomain ns1:Visual_obstruction ;
+    ns1:hasTargetDomain ns1:Democracy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DEMOCRACY_IS_A_PLANT ns1:hasSourceDomain ns1:Plants ;
+    ns1:hasTargetDomain ns1:Democratic_ideology ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DEMOCRACY_IS_A_TOWN_MEETING ns1:hasSourceDomain ns1:Meeting ;
+    ns1:hasTargetDomain ns1:Democracy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DEMOCRATIC_DECISION-MAKING_IS_PARTNERSHIP_DECISION-MAKING ns1:hasSourceDomain ns1:Relationship ;
+    ns1:hasTargetDomain ns1:Democracy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DEMOCRATIC_DECISION-MAKING_IS_TOWNHALL_DECISION-MAKING ns1:hasSourceDomain ns1:Decision_making ;
+    ns1:hasTargetDomain ns1:Democracy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DEMOCRATIC_IDEOLOGY_IS_A_COMMODITY ns1:hasSourceDomain ns1:Commodity ;
+    ns1:hasTargetDomain ns1:Democratic_ideology ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DESIRE_IS_HUNGER ns1:hasSourceDomain ns1:Hunger ;
+    ns1:hasTargetDomain ns1:Desire ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DIFFERENT_MEANS_OF_ACHIEVING_A_PURPOSE_ARE_DIFFERENT_PATHS_TO_A_DESTINATION ns1:hasSourceDomain ns1:Self_propelled_motion_to_a_destination ;
+    ns1:hasTargetDomain ns1:Purposeful_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DIFFERING_IDEOLOGIES_ARE_ADVERSARIES ns1:hasSourceDomain ns1:Physical_combat ;
+    ns1:hasTargetDomain ns1:Ideology ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DIFFICULTIES_ARE_IMPEDIMENTS_TO_MOVEMENT ns1:hasSourceDomain ns1:Motion_impediments ;
+    ns1:hasTargetDomain ns1:Difficulties_in_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DIFFICULTIES_IN_ACTION_ARE_PHYSICAL_BURDENS ns1:hasSourceDomain ns1:Burden ;
+    ns1:hasTargetDomain ns1:Difficulties_in_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DIFFICULTIES_IN_A_ROMANTIC_RELATIONSHIP_ARE_IMPEDIMENTS_TO_MOTION_ALONG_A_PATH ns1:hasSourceDomain ns1:Motion_impediment ;
+    ns1:hasTargetDomain ns1:Romantic_relationship ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DIFFICULTIES_IN_KNOWING_ARE_VISUAL_OBSTRUCTIONS ns1:hasSourceDomain ns1:Visual_obstruction ;
+    ns1:hasTargetDomain ns1:Knowing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DIFFICULTIES_IN_PROGRESSING_THROUGH_LIFE_ARE_IMPEDIMENTS_TO_MOTION_ALONG_A_PATH ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Life ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DIFFICULTY_IS_HARDNESS ns1:hasSourceDomain ns1:Hardness ;
+    ns1:hasTargetDomain ns1:Difficulties_in_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DIFFICULTY_IS_HEAVINESS ns1:hasSourceDomain ns1:Weight ;
+    ns1:hasTargetDomain ns1:Difficulties_in_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DIFFICULTY_IS_PHYSICAL_STRUGGLE ns1:hasSourceDomain ns1:Physical_struggle ;
+    ns1:hasTargetDomain ns1:Difficulties_in_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DIPLOMACY_IS_WAR ns1:hasSourceDomain ns1:War ;
+    ns1:hasTargetDomain ns1:Diplomacy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DISAGREEMENT_IS_DIVISION ns1:hasSourceDomain ns1:Separation ;
+    ns1:hasTargetDomain ns1:Argument ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DISEASES_ARE_BURDENS ns1:hasSourceDomain ns1:Burden ;
+    ns1:hasTargetDomain ns1:Disease ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DISEASE_IS_A_GAME ns1:hasSourceDomain ns1:Game ;
+    ns1:hasTargetDomain ns1:Disease ;
+    ns1:metaphorProvenance ns1:LP .
+
+<https://w3id.org/framester/metanet/schema/DISEASE_IS_MOVING_OBJECT/PERSON> ns1:hasSourceDomain ns1:Moving_object ;
+    ns1:hasTargetDomain ns1:Disease ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:DISEASE_IS_MOVING_PERSON a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv9 ;
+    ns1:hasExample "así que ya no se que creer o uno no sabe que hacer porque por un lado tenes esto o dejar que la enfermedad avance" ;
+    ns1:metaphorInvestigatedFor ns1:Spanish .
+
+ns1:DISEASE_IS_ROLEPLAY a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv10 ;
+    ns1:hasExample "la mente juega un rol muy importante en la enfermedad, si es necesario andá teniendo a mano la nota de psicólogos" ;
+    ns1:hasSourceDomain ns1:Roleplay ;
+    ns1:hasTargetDomain ns1:Disease ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:DISEASE_IS_STOP_IN_LIFE ns1:hasSourceDomain ns1:Stop_in_a_path ;
+    ns1:hasTargetDomain ns1:Disease ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:DISEASE_PROGRESSION_IS_MOVEMENT a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv9 ;
+    ns1:hasExample "así que ya no se que creer o uno no sabe que hacer porque por un lado tenes esto o dejar que la enfermedad avance" ;
+    ns1:hasSourceDomain ns1:Motion ;
+    ns1:hasTargetDomain ns1:Disease_progression ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:DISEASE_TREATMENT_IS_WAR ns1:hasSourceDomain ns1:War ;
+    ns1:hasTargetDomain ns1:Disease_treatment ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DISTINGUISHING_IS_DIVIDING ns1:hasSourceDomain ns1:Dividing ;
+    ns1:hasTargetDomain ns1:Distinguishing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DISTURBING_IDEAS_ARE_DISGUSTING_FOODS ns1:hasSourceDomain ns1:Disgusting ;
+    ns1:hasTargetDomain ns1:Idea ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DOING_EVIL_IS_FALLING ns1:hasSourceDomain ns1:Downward_motion ;
+    ns1:hasTargetDomain ns1:Evil ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:DOUBTS_ARE_OBJECTS a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv10 ;
+    ns1:hasExample "busquen a un oncólogo que les saque todas las dudas, de ser necesario vayan anotandolas en papel a medida de que les vayan surgiendo así no se olvidan" ;
+    ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Doubt ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:EASE_OF_ACTION_IS_EASE_OF_MOTION_ALONG_A_PATH ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ECONOMIC_HARDSHIP_IS_PHYSICAL_HARM ns1:hasSourceDomain ns1:Physical_harm ;
+    ns1:hasTargetDomain ns1:Economic_difficulty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ECONOMIC_RESOURCES_ARE_PHYSICAL_ENTITIES ns1:hasSourceDomain ns1:Physical_entity ;
+    ns1:hasTargetDomain ns1:Economic_resource ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ECONOMIC_RESOURCE_IS_A_LIMITED_NATURAL_RESOURCE ns1:hasSourceDomain ns1:Natural_resource ;
+    ns1:hasTargetDomain ns1:Economic_resource ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ECONOMIC_STATUS_IS_A_POINT_ON_A_SCALE ns1:hasSourceDomain ns1:Scale ;
+    ns1:hasTargetDomain ns1:Economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ECONOMY_IS_A_BODY ns1:hasSourceDomain ns1:Body ;
+    ns1:hasTargetDomain ns1:Economy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ECONOMY_IS_A_COMPLEX_STRUCTURE ns1:hasSourceDomain ns1:Complex_physical_object ;
+    ns1:hasTargetDomain ns1:Economy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ECONOMY_IS_A_MACHINE ns1:hasSourceDomain ns1:Machine ;
+    ns1:hasTargetDomain ns1:Economy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EDUCATIONAL_EVALUATION_IS_GAMBLING ns1:hasSourceDomain ns1:Gambling ;
+    ns1:hasTargetDomain ns1:Educational_evaluation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EDUCATION_IS_AN_OBJECT ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Education ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EDUCATION_IS_A_RESOURCE ns1:hasSourceDomain ns1:Resource ;
+    ns1:hasTargetDomain ns1:Education ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EDUCATION_IS_COMPONENT_OF_BUILDING ns1:hasSourceDomain ns1:Component_of_building ;
+    ns1:hasTargetDomain ns1:Education ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EFFECTIVE_GOVERNMENT_INSTITUTION_IS_A_HEALTHY_BODY ns1:hasSourceDomain ns1:Body ;
+    ns1:hasTargetDomain ns1:Government_institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EFFECTIVE_GOVERNMENT_INSTITUTION_IS_A_STRONG_BUILDING ns1:hasSourceDomain ns1:Building ;
+    ns1:hasTargetDomain ns1:Government_institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EFFECTIVE_GOVERNMENT_INSTITUTION_IS_A_WELL-FUNCTIONING_MACHINE ns1:hasSourceDomain ns1:Machine ;
+    ns1:hasTargetDomain ns1:Government_institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EFFECTIVE_GOVERNMENT_IS_A_WELL-MANAGED_BUSINESS ns1:hasSourceDomain ns1:Business ;
+    ns1:hasTargetDomain ns1:Government_institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EFFECTS_ARE_TRANSFERRED_OBJECTS ns1:hasSourceDomain ns1:Transfer_scenario ;
+    ns1:hasTargetDomain ns1:Causation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EFFICIENT_GOVERNMENT_IS_A_LEAN_BODY ns1:hasSourceDomain ns1:Body ;
+    ns1:hasTargetDomain ns1:Government_institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ELECTIONS_ARE_COMPETITIVE_SPORTS_EVENTS ns1:hasSourceDomain ns1:Competitive_sport ;
+    ns1:hasTargetDomain ns1:Election ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ELECTION_IS_A_BOXING_MATCH ns1:hasSourceDomain ns1:Physical_competition ;
+    ns1:hasTargetDomain ns1:Election ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ELECTION_IS_A_GAME ns1:hasSourceDomain ns1:Game ;
+    ns1:hasTargetDomain ns1:Election ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ELECTION_IS_A_RACE ns1:hasSourceDomain ns1:Race ;
+    ns1:hasTargetDomain ns1:Election ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ELECTION_IS_WAR ns1:hasSourceDomain ns1:War ;
+    ns1:hasTargetDomain ns1:Election ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EMOTIONALLY_INDIFFERENT_IS_COLD ns1:hasSourceDomain ns1:Temperature ;
+    ns1:hasTargetDomain ns1:Emotional_intensity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EMOTIONALLY_INTENSE_IS_HOT ns1:hasSourceDomain ns1:Heat ;
+    ns1:hasTargetDomain ns1:Emotion ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EMOTIONALLY_MILD_IS_EXPERIENCING_MILD_TEMPERATURE ns1:hasSourceDomain ns1:Temperature ;
+    ns1:hasTargetDomain ns1:Emotional_intensity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EMOTIONAL_INTENSITY_IS_TEMPERATURE ns1:hasSourceDomain ns1:Heat ;
+    ns1:hasTargetDomain ns1:Emotional_intensity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EMOTIONAL_INTIMACY_IS_PHYSICAL_PROXIMITY ns1:hasSourceDomain ns1:Proximity ;
+    ns1:hasTargetDomain ns1:Intimacy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EMOTIONS_ARE_OBJECTS ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Emotion ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EMOTIONS_ARE_SUBSTANCES ns1:hasSourceDomain ns1:Substance ;
+    ns1:hasTargetDomain ns1:Emotion ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EMOTION_IS_A_FORCE ns1:hasSourceDomain ns1:Force ;
+    ns1:hasTargetDomain ns1:Emotion ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EMOTION_IS_PRESSURE_IN_A_CONTAINER ns1:hasSourceDomain ns1:Pressure_in_a_container ;
+    ns1:hasTargetDomain ns1:Emotion ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ENABLE_ABILITY_TO_UTILIZE_RESOURCES_IS_ENABLE_ABILITY_TO_ACCESS_LOCATIONS ns1:hasSourceDomain ns1:Enable_ability_to_access_locations ;
+    ns1:hasTargetDomain ns1:Financial_resource ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ENACTING_LEGISLATION_IS_CAUSING_MOTION_ALONG_A_PATH ns1:hasSourceDomain ns1:Forced_motion ;
+    ns1:hasTargetDomain ns1:Legislation_enactment ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:END_OF_AN_ACTION_IS_THE_END_OF_A_PATH ns1:hasSourceDomain ns1:Motion_to_a_location ;
+    ns1:hasTargetDomain ns1:Action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ENJOYING_A_RIGHT_IS_POSSESSING_AN_OBJECT ns1:hasSourceDomain ns1:Possession ;
+    ns1:hasTargetDomain ns1:Rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ENTITLEMENT_HOLDERS_ARE_LEECHES ns1:hasSourceDomain ns1:Parasite ;
+    ns1:hasTargetDomain ns1:Impoverished ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ENVIRONMENTAL_HARM_IS_PHYSICAL_INJURY ns1:hasSourceDomain ns1:Physical_harm ;
+    ns1:hasTargetDomain ns1:Environmental_harm ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EQUALITY_IS_BEING_ON_THE_SAME_VERTICAL_LEVEL ns1:hasSourceDomain ns1:Vertical_position ;
+    ns1:hasTargetDomain ns1:Equality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ESSENTIAL_IS_INTERNAL ns1:hasSourceDomain ns1:Containment ;
+    ns1:hasTargetDomain ns1:Essence ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EVENTS_ARE_OBJECTS ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Event ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EVIL_IS_DARK ns1:hasSourceDomain ns1:Darkness ;
+    ns1:hasTargetDomain ns1:Evil ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EXCESS_WEALTH_IS_DISGUSTING ns1:hasSourceDomain ns1:Disgusting ;
+    ns1:hasTargetDomain ns1:Wealth ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EXCESS_WEALTH_IS_EXCESS_BODY_WEIGHT ns1:hasSourceDomain ns1:Excess_body_weight ;
+    ns1:hasTargetDomain ns1:Financial_resource ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EXCESS_WEALTH_IS_LARGE_GEOGRAPHIC_FEATURES ns1:hasSourceDomain ns1:Large_geographic_features ;
+    ns1:hasTargetDomain ns1:Financial_resource ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EXCESS_WEALTH_IS_OBSCENE ns1:hasSourceDomain ns1:Obscenity ;
+    ns1:hasTargetDomain ns1:Wealth ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EXISTENCE_IS_VISIBILITY ns1:hasSourceDomain ns1:Visual_evaluation ;
+    ns1:hasTargetDomain ns1:Existence ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EXISTING_IS_BEING_PHYSICALLY_AT_THIS_LOCATION ns1:hasSourceDomain ns1:Being_at_a_location ;
+    ns1:hasTargetDomain ns1:Existence ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EXPERIENCED_STATE_IS_A_PROXIMATE_OBJECT ns1:hasSourceDomain ns1:Trajector_landmark ;
+    ns1:hasTargetDomain ns1:Experiencing_a_state ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EXPERIENCE_IS_HELP a ns1:Metaphor ;
+    ns2:hasExample ns1:robzhn7 ;
+    ns1:hasExample "En fin, si necesitas consultar lo que sea, adelante, ojalá sirva de algo mí experiencia." ;
+    ns1:hasSourceDomain ns1:Experience ;
+    ns1:hasTargetDomain ns1:Help ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:EXPERIENCE_OF_A_STATE_IS_SPATIAL_RELATION_WITH_AN_ENTITY ns1:hasSourceDomain ns1:Spatial_relation ;
+    ns1:hasTargetDomain ns1:Experiencing_a_state ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EXPERIENCING_AN_ECONOMIC_STATUS_IS_BEING_AT_A_LOCATION ns1:hasSourceDomain ns1:Being_at_a_location ;
+    ns1:hasTargetDomain ns1:Experiencing_an_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EXPERIENCING_A_NEGATIVE_STATE_IS_EXPERIENCING_HARM ns1:hasSourceDomain ns1:Physical_harm ;
+    ns1:hasTargetDomain ns1:Experiencing_a_negative_state ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EXPERIENCING_A_STATE_IS_BEING_AT_A_LOCATION ns1:hasSourceDomain ns1:Being_at_a_location ;
+    ns1:hasTargetDomain ns1:Experiencing_a_state ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EXPERIENCING_A_STATE_IS_POSSESSING_AN_OBJECT ns1:hasSourceDomain ns1:Possession ;
+    ns1:hasTargetDomain ns1:Experiencing_a_state ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EXPLOITATION_OF_RESOURCES_IS_A_PARASITIC_INFECTION ns1:hasSourceDomain ns1:Parasite ;
+    ns1:hasTargetDomain ns1:Limited_resource ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:EXTENT_OF_SOCIAL_PROBLEMS_IS_EXTENT_OF_AFFLICTION ns1:hasSourceDomain ns1:Disease_spread ;
+    ns1:hasTargetDomain ns1:Social_problems ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:FACTS_ARE_OBJECTS a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv4 ;
+    ns1:hasExample "Mirá yo al contrario con mi viejo tuve muy buena experiencia en el fuesmen (fundacion escuela de medicina nuclear), creo que solo hacen rayos ahí, no se si hay solo en mi provincia o en el resto del pais, el gran problema fue que Ioma reintegre siendo que vivimos en otra provincia y somos \"derivados\" a otra obra social mucho peor que la porqueria de Ioma, de todas formas eso, te tiro el dato de fuesmen x si necesita rayos" ;
+    ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Facts ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:FERVENT_ADVOCACY_IS_INSANITY ns1:hasSourceDomain ns1:Insanity ;
+    ns1:hasTargetDomain ns1:Advocacy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:FINANCIAL_RESOURCES_ARE_PHYSICAL_RESOURCES ns1:hasSourceDomain ns1:Resource ;
+    ns1:hasTargetDomain ns1:Finance ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:FORCES_ARE_OBJECTS ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Force ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:FORCE_TRANSFER_IS_OBJECT_TRANSFER ns1:hasSourceDomain ns1:Transfer_scenario ;
+    ns1:hasTargetDomain ns1:Force_transfer ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:FORMING_WORDS_IS_SHAPING ns1:hasSourceDomain ns1:Crafting ;
+    ns1:hasTargetDomain ns1:Forming_words ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:FREEDOM_IS_A_VALUABLE_POSSESSION ns1:hasSourceDomain ns1:Possession ;
+    ns1:hasTargetDomain ns1:Freedom ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:FREEDOM_OF_ACTION_IS_THE_LACK_OF_IMPEDIMENTS_TO_MOVEMENT ns1:hasSourceDomain ns1:Physical_impediments_to_motion ;
+    ns1:hasTargetDomain ns1:Freedom_of_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:FULLY_COMMUNICATING_A_SEQUENCE_OF_THOUGHT_IS_SPELLING ns1:hasSourceDomain ns1:Spelling ;
+    ns1:hasTargetDomain ns1:Communication ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:FUNCTIONALITY_IS_VERTICALITY ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Functionality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:FUNCTIONAL_LEGISLATURE_IS_A_FUNCTIONING_MACHINE ns1:hasSourceDomain ns1:Operating_a_machine ;
+    ns1:hasTargetDomain ns1:Legislative_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:FUTURE_IS_AHEAD ns1:hasSourceDomain ns1:Front ;
+    ns1:hasTargetDomain ns1:Time ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:FUTURE_OF_A_NATION_IS_PATH_OF_BOAT ns1:hasSourceDomain ns1:Boat_motion_x-schema ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GAINING_POWER_IS_GAINING_A_POSSESSION ns1:hasSourceDomain ns1:Gain_possession ;
+    ns1:hasTargetDomain ns1:Power ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOODNESS_IS_LIGHT ns1:hasSourceDomain ns1:Lightness ;
+    ns1:hasTargetDomain ns1:Goodness ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOODNESS_IS_VERTICALITY ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Goodness ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNING_ACTION_IS_MOTION ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Governing_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_ASSISTANCE_IS_A_TRAP ns1:hasSourceDomain ns1:Entrapment ;
+    ns1:hasTargetDomain ns1:Welfare ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_ASSISTANCE_IS_SUPPORT ns1:hasSourceDomain ns1:Support ;
+    ns1:hasTargetDomain ns1:Assistance ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_CONTROL_IS_VERTICALITY ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_DEBT_IS_OCEAN ns1:hasSourceDomain ns1:Government_debt ;
+    ns1:hasTargetDomain ns1:Ocean ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_FUNCTIONALITY_IS_VERTICALITY ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Government_institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_INSTITUTION_IS_A_BODY ns1:hasSourceDomain ns1:Body ;
+    ns1:hasTargetDomain ns1:Government_institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_INSTITUTION_IS_A_BUILDING ns1:hasSourceDomain ns1:Building ;
+    ns1:hasTargetDomain ns1:Government_institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_INSTITUTION_IS_A_MACHINE ns1:hasSourceDomain ns1:Machine ;
+    ns1:hasTargetDomain ns1:Government_institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_INSTITUTION_IS_A_PHYSICAL_STRUCTURE ns1:hasSourceDomain ns1:Physical_structure ;
+    ns1:hasTargetDomain ns1:Government_institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_AN_ORGANISM ns1:hasSourceDomain ns1:Biological_entity ;
+    ns1:hasTargetDomain ns1:Government_institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_A_BUSINESS ns1:hasSourceDomain ns1:Business ;
+    ns1:hasTargetDomain ns1:Government_institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_A_CHILDCARE_PROVIDER ns1:hasSourceDomain ns1:Child_care ;
+    ns1:hasTargetDomain ns1:Government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_A_DISEASE ns1:hasSourceDomain ns1:Health_treatment ;
+    ns1:hasTargetDomain ns1:Government_institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_A_DOCTOR ns1:hasSourceDomain ns1:Health_treatment ;
+    ns1:hasTargetDomain ns1:Governing_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_A_DRIVER ns1:hasSourceDomain ns1:Vehicular_motion ;
+    ns1:hasTargetDomain ns1:Governing_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_A_LEADER ns1:hasSourceDomain ns1:Leadership ;
+    ns1:hasTargetDomain ns1:Government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_A_LEECH ns1:hasSourceDomain ns1:Parasite ;
+    ns1:hasTargetDomain ns1:Government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_A_PARENT ns1:hasSourceDomain ns1:Nuclear_family ;
+    ns1:hasTargetDomain ns1:Government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_A_PATIENT ns1:hasSourceDomain ns1:Health_treatment ;
+    ns1:hasTargetDomain ns1:Government_institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_A_PERSON ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_A_POLICEMAN ns1:hasSourceDomain ns1:Work_scenario ;
+    ns1:hasTargetDomain ns1:Government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_A_SERVANT ns1:hasSourceDomain ns1:Servant ;
+    ns1:hasTargetDomain ns1:Government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_A_SHEPHERD ns1:hasSourceDomain ns1:Shepherding ;
+    ns1:hasTargetDomain ns1:Government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_A_SLAVE_MASTER ns1:hasSourceDomain ns1:Work_scenario ;
+    ns1:hasTargetDomain ns1:Government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_IS_REFEREE ns1:hasSourceDomain ns1:Game ;
+    ns1:hasTargetDomain ns1:Government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_POWER_IS_BODILY_STRENGTH ns1:hasSourceDomain ns1:Physical_strength ;
+    ns1:hasTargetDomain ns1:Government_power ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_REGULATION_IS_A_BARRIER ns1:hasSourceDomain ns1:Barrier ;
+    ns1:hasTargetDomain ns1:Regulation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_REGULATION_IS_A_BURDEN ns1:hasSourceDomain ns1:Burden ;
+    ns1:hasTargetDomain ns1:Regulation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_REGULATION_IS_A_PHYSICAL_CONSTRAINT ns1:hasSourceDomain ns1:Confinement ;
+    ns1:hasTargetDomain ns1:Regulation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_REGULATION_IS_SUFFOCATION ns1:hasSourceDomain ns1:Stop_airflow ;
+    ns1:hasTargetDomain ns1:Regulation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_S_HARMFUL_TREATMENT_OF_RIGHTS_IS_ATTACKING ns1:hasSourceDomain ns1:Attacking ;
+    ns1:hasTargetDomain ns1:Rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_S_HARMFUL_TREATMENT_OF_RIGHTS_IS_DAMAGING_A_PHYSICAL_STRUCTURE ns1:hasSourceDomain ns1:Physical_structure ;
+    ns1:hasTargetDomain ns1:Rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GOVERNMENT_S_HARMFUL_TREATMENT_OF_RIGHTS_IS_INVADING_A_TERRITORY ns1:hasSourceDomain ns1:Trespassing ;
+    ns1:hasTargetDomain ns1:Rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GREATER_DEGREE_OF_GUN_CONTROL_IS_STRONGER_PHYSICAL_RESTRAINT ns1:hasSourceDomain ns1:Physical_strength ;
+    ns1:hasTargetDomain ns1:Gun_control_legislation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GREED_IS_HUNGER ns1:hasSourceDomain ns1:Hunger ;
+    ns1:hasTargetDomain ns1:Greed ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GROUPS_ARE_CONTAINERS ns1:hasSourceDomain ns1:Containing ;
+    ns1:hasTargetDomain ns1:Group ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GROUPS_ARE_PART-WHOLE_STRUCTURES ns1:hasSourceDomain ns1:Part_whole ;
+    ns1:hasTargetDomain ns1:Group ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GROUPS_ARE_POSSESSORS ns1:hasSourceDomain ns1:Possession ;
+    ns1:hasTargetDomain ns1:Group ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GROUP_IS_A_BODY ns1:hasSourceDomain ns1:Body ;
+    ns1:hasTargetDomain ns1:Group ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUIDED_ACTION_IS_GUIDED_MOTION_ALONG_A_PATH ns1:hasSourceDomain ns1:Guided_motion ;
+    ns1:hasTargetDomain ns1:Action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUNS_ARE_A_DISEASE ns1:hasSourceDomain ns1:Disease ;
+    ns1:hasTargetDomain ns1:Personal_weapon ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUNS_ARE_A_NATURAL_DISASTER ns1:hasSourceDomain ns1:Natural_disaster ;
+    ns1:hasTargetDomain ns1:Personal_weapon ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUNS_ARE_DRUGS ns1:hasSourceDomain ns1:Addiction ;
+    ns1:hasTargetDomain ns1:Personal_weapon ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUNS_ARE_MAGICAL ns1:hasSourceDomain ns1:Magic ;
+    ns1:hasTargetDomain ns1:Personal_weapon ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUNS_ARE_OBJECTS_OF_WORSHIP ns1:hasSourceDomain ns1:Worship ;
+    ns1:hasTargetDomain ns1:Gun_possession ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUNS_ARE_PESTS ns1:hasSourceDomain ns1:Pest ;
+    ns1:hasTargetDomain ns1:Personal_weapon ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUNS_ARE_TARGETS_OF_PSYCHOLOGICAL_FIXATION ns1:hasSourceDomain ns1:Psychological_fixation ;
+    ns1:hasTargetDomain ns1:Personal_weapon ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUN_CONTROL_ADVOCACY_IS_PHYSICAL_HARM ns1:hasSourceDomain ns1:Physical_harm ;
+    ns1:hasTargetDomain ns1:Advocacy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUN_CONTROL_IS_PHYSICAL_RESTRAINT ns1:hasSourceDomain ns1:Constructed_Restraints ;
+    ns1:hasTargetDomain ns1:Gun_control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUN_CONTROL_LEGISLATION_IS_PHYSICAL_RESTRAINT ns1:hasSourceDomain ns1:Restraints ;
+    ns1:hasTargetDomain ns1:Gun_control_legislation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUN_CONTROL_REGULATION_IS_A_DISEASE ns1:hasSourceDomain ns1:Disease ;
+    ns1:hasTargetDomain ns1:Gun_control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUN_CONTROL_REGULATION_IS_A_MOTION_IMPEDIMENT ns1:hasSourceDomain ns1:Motion-affecting_objects ;
+    ns1:hasTargetDomain ns1:Gun_control_legislation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUN_CONTROL_REGULATION_IS_PHYSICAL_HARM ns1:hasSourceDomain ns1:Physical_harm ;
+    ns1:hasTargetDomain ns1:Gun_control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUN_DEBATE_IS_A_LIVING_ENTITY ns1:hasSourceDomain ns1:Biological_entity ;
+    ns1:hasTargetDomain ns1:Gun_law_decision-making ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUN_OWNERSHIP_IS_INSANITY ns1:hasSourceDomain ns1:Insanity ;
+    ns1:hasTargetDomain ns1:Gun_ownership ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUN_RIGHTS_ARE_VALUABLE_POSSESSIONS ns1:hasSourceDomain ns1:Possessable_object ;
+    ns1:hasTargetDomain ns1:Gun_rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUN_VIOLENCE_IS_A_FLUID ns1:hasSourceDomain ns1:Fluid_motion ;
+    ns1:hasTargetDomain ns1:Injurious_gun_use ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUN_VIOLENCE_IS_A_PHYSICAL_AFFLICTION ns1:hasSourceDomain ns1:Physical_affliction ;
+    ns1:hasTargetDomain ns1:Injurious_gun_use ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:GUN_VIOLENCE_IS_PHYSICAL_HARM ns1:hasSourceDomain ns1:Physical_harm ;
+    ns1:hasTargetDomain ns1:Injurious_gun_use ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:HAPPINESS_IS_VERTICALITY ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Emotion ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:HAPPY_IS_UP a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv10 ;
+    ns1:hasExample "me alegra mucho que el tumor se haya achicado, que te den esas noticias cuando estás padeciendo la enfermedad te suben muchísimo el ánimo." ;
+    ns1:hasSourceDomain ns1:Being_at_a_High_Location ;
+    ns1:hasTargetDomain ns1:Happiness ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:HARM_IS_PHYSICAL_INJURY ns1:hasSourceDomain ns1:Physical_harm ;
+    ns1:hasTargetDomain ns1:Harm ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:HAVING_CANCER_IS_BEING_DEPRIVED a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv2 ;
+    ns1:hasExample "A seguir metiendole como sea aunque duela, no tengamos fuerzas o hacer todo solo porque nadie ayuda, por los que más queremos siempre vamos a dar todo." ;
+    ns1:hasSourceDomain ns1:Depriving_thing ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:HAVING_CANCER_IS_ROWING a ns1:Metaphor ;
+    ns2:hasExample ns1:robzhn0 ;
+    ns1:hasExample "Como ya te dije, abrazo para uds. y fuerza para tu novia que la va a tener que remar pero esperemos que en un tiempo todo esto sea nada más que un mal recuerdo." ;
+    ns1:hasSourceDomain ns1:Rower ;
+    ns1:hasTargetDomain ns1:Patient ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:HEALTH_IS_UP ns1:hasSourceDomain ns1:Being_at_a_High_Location ;
+    ns1:hasTargetDomain ns1:Health ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:HEALTH_IS_VERTICALITY ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Health ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:HELP_IS_PHYSICAL_SUPPORT ns1:hasSourceDomain ns1:Support ;
+    ns1:hasTargetDomain ns1:Aids_to_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:HIERARCHY_IS_A_VERTICAL_STRUCTURE ns1:hasSourceDomain ns1:Vertical_structure ;
+    ns1:hasTargetDomain ns1:Hierarchy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:HIGH_STATUS_IS_UP ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IDEAS_ARE_FOOD ns1:hasSourceDomain ns1:Food ;
+    ns1:hasTargetDomain ns1:Idea ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IDEAS_ARE_OBJECTS ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Idea ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IDEAS_ARE_PEOPLE ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Idea ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IDEAS_ARE_POSSESSIONS ns1:hasSourceDomain ns1:Possession ;
+    ns1:hasTargetDomain ns1:Idea ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IDEA_SYSTEMS_ARE_COMPLEX_PHYSICAL_SYSTEMS ns1:hasSourceDomain ns1:Complex_physical_object ;
+    ns1:hasTargetDomain ns1:Group_of_related_ideas ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IDEA_SYSTEMS_ARE_FLUID_MASSES ns1:hasSourceDomain ns1:Liquid ;
+    ns1:hasTargetDomain ns1:Group_of_related_ideas ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IDEOLOGIES_ARE_ORGANISMS ns1:hasSourceDomain ns1:Biological_entity ;
+    ns1:hasTargetDomain ns1:Ideology ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMMORALITY_IS_DEGENERATION ns1:hasSourceDomain ns1:Degeneration ;
+    ns1:hasTargetDomain ns1:Immorality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMMORALITY_IS_DISEASE ns1:hasSourceDomain ns1:Disease ;
+    ns1:hasTargetDomain ns1:Morality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMMORALITY_IS_IMPURITY ns1:hasSourceDomain ns1:Impurity ;
+    ns1:hasTargetDomain ns1:Immorality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMMORAL_IS_CROOKED ns1:hasSourceDomain ns1:Straightness ;
+    ns1:hasTargetDomain ns1:Morality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPEDIMENTS_TO_ACTION_ARE_ANTAGONISTIC_FORCES ns1:hasSourceDomain ns1:Antagonistic_force ;
+    ns1:hasTargetDomain ns1:Difficulties_in_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPEDIMENTS_TO_ACTION_ARE_PHYSICAL_IMPEDIMENTS_TO_MOTION ns1:hasSourceDomain ns1:Motion_impediments ;
+    ns1:hasTargetDomain ns1:Difficulties_in_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPEDIMENTS_TO_IMPROVING_ECONOMIC_STATUS_IS_ANTAGONISTIC_FORCE ns1:hasSourceDomain ns1:Antagonistic_force ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPEDIMENTS_TO_IMPROVING_ECONOMIC_STATUS_IS_CONFUSING_PATHS_TO_MOVING_OUT_OF_A_LOCATION ns1:hasSourceDomain ns1:Maze ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPEDIMENTS_TO_IMPROVING_ECONOMIC_STATUS_IS_CONSTRUCTED_CONFINEMENT ns1:hasSourceDomain ns1:Constructed_Confinement ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPEDIMENTS_TO_IMPROVING_ECONOMIC_STATUS_IS_CONSTRUCTED_RESTRAINTS ns1:hasSourceDomain ns1:Constructed_Restraints ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPEDIMENTS_TO_IMPROVING_ECONOMIC_STATUS_IS_ENVIRONMENTAL_CONFINEMENT ns1:hasSourceDomain ns1:Confinement ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPEDIMENTS_TO_IMPROVING_ECONOMIC_STATUS_IS_ENVIRONMENTAL_RESTRAINTS ns1:hasSourceDomain ns1:Environmental_restraints ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPEDIMENTS_TO_IMPROVING_ECONOMIC_STATUS_IS_EXPERIENCING_A_PHYSICAL_AFFLICTION ns1:hasSourceDomain ns1:Physical_affliction ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPEDIMENTS_TO_IMPROVING_ECONOMIC_STATUS_IS_PHYSICAL_BURDEN ns1:hasSourceDomain ns1:Burden ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPEDIMENTS_TO_IMPROVING_ECONOMIC_STATUS_IS_PHYSICAL_IMPEDIMENTS_TO_MOTION ns1:hasSourceDomain ns1:Motion_impediments ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPEDIMENTS_TO_IMPROVING_ECONOMIC_STATUS_IS_WATER_CONFINEMENT ns1:hasSourceDomain ns1:Water_Confinement ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPEDIMENTS_TO_UTILIZING_EDUCATIONAL_OPPORTUNITIES_IS_ANTAGONISTIC_FORCE ns1:hasSourceDomain ns1:Antagonistic_force ;
+    ns1:hasTargetDomain ns1:Educational_opportunities ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPEDIMENTS_TO_UTILIZING_EDUCATIONAL_OPPORTUNITIES_IS_OBSTACLES_TO_ACCESSING_A_LOCATION ns1:hasSourceDomain ns1:Barrier_to_accessing_a_location ;
+    ns1:hasTargetDomain ns1:Educational_opportunities ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPORTANCE_IS_SIZE ns1:hasSourceDomain ns1:Size ;
+    ns1:hasTargetDomain ns1:Importance ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPORTANCE_IS_WEIGHT ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Importance ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPORTANT_IS_CENTRAL ns1:hasSourceDomain ns1:Center_periphery ;
+    ns1:hasTargetDomain ns1:Importance ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPROVEMENT_IN_MOOD_IS_UPWARD_MOTION a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv10 ;
+    ns1:hasExample "Va a tener sus días de altos y bajos, pero tratá de que solo sean momentos puntuales y no algo del día a día" ;
+    ns1:hasSourceDomain ns1:Upward_motion ;
+    ns1:hasTargetDomain ns1:Emotion ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPROVING_A_STATE_IS_MOTION_TO_A_PREFERRED_LOCATION ns1:hasSourceDomain ns1:Motion_to_a_location ;
+    ns1:hasTargetDomain ns1:Improving_a_state ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPROVING_ECONOMIC_STATUS_IS_MOVING_OUT_OF_AN_UNDESIRABLE_LOCATION ns1:hasSourceDomain ns1:Motion_away_from_an_undesirable_location ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPROVING_ECONOMIC_STATUS_IS_MOVING_OUT_OF_A_LOCATION ns1:hasSourceDomain ns1:Motion_away_from_a_location ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPROVING_ECONOMIC_STATUS_IS_UPWARD_MOTION ns1:hasSourceDomain ns1:Upward_motion ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:IMPROVING_EDUCATION_IS_FINANCIAL_INVESTMENT ns1:hasSourceDomain ns1:Investment ;
+    ns1:hasTargetDomain ns1:Funding_education ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INABILITY_TO_UTILIZE_EDUCATIONAL_OPPORTUNITY_IS_INABILITY_TO_ACCESS_A_LOCATION ns1:hasSourceDomain ns1:Inability_to_access_a_location ;
+    ns1:hasTargetDomain ns1:Educational_opportunities ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INCITING_GOVERNING_ACTION_IS_FORCED_MOVEMENT ns1:hasSourceDomain ns1:Forced_motion ;
+    ns1:hasTargetDomain ns1:Governing_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INCREASE_EASE_OF_ACTION_IS_INCREASE_EASE_OF_MOTION ns1:hasSourceDomain ns1:Increase_ease_of_motion ;
+    ns1:hasTargetDomain ns1:Increase_ease_of_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INCREASE_IN_CRIME_IS_SPREAD_OF_DISEASE ns1:hasSourceDomain ns1:Disease ;
+    ns1:hasTargetDomain ns1:Crime ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INCREASE_IN_QUANTITY_IS_UPWARD_MOTION ns1:hasSourceDomain ns1:Upward_motion ;
+    ns1:hasTargetDomain ns1:Quantity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INCREASE_IN_TAXATION_IS_OCCURENCE_OF_SUDDEN_DESTRUCTIVE_NATURAL_FORCE ns1:hasSourceDomain ns1:Destructive_natural_process ;
+    ns1:hasTargetDomain ns1:Taxation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INEFFECTIVE_GOVERNMENT_IS_A_POORLY-MANAGED_BUSINESS ns1:hasSourceDomain ns1:Business ;
+    ns1:hasTargetDomain ns1:Government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INEFFICIENT_GOVERNMENT_IS_A_BLOATED_BODY ns1:hasSourceDomain ns1:Excess_body_weight ;
+    ns1:hasTargetDomain ns1:Government ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INFORMATION_IS_CONTENTS ns1:hasSourceDomain ns1:Contents ;
+    ns1:hasTargetDomain ns1:Information ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INHIBITTING_ENACTMENT_OF_LEGISLATION_IS_IMPEDING_MOTION ns1:hasSourceDomain ns1:Impediment_to_motion ;
+    ns1:hasTargetDomain ns1:Legislation_enactment ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INSTITUTIONS_ARE_BUILDINGS ns1:hasSourceDomain ns1:Building ;
+    ns1:hasTargetDomain ns1:Institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INSTITUTIONS_ARE_PEOPLE ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INSTITUTION_IS_AN_ORGANISM ns1:hasSourceDomain ns1:Biological_entity ;
+    ns1:hasTargetDomain ns1:Institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INSTITUTION_IS_A_BUSINESS ns1:hasSourceDomain ns1:Business ;
+    ns1:hasTargetDomain ns1:Institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INSTITUTION_IS_A_COMPLEX_PHYSICAL_OBJECT ns1:hasSourceDomain ns1:Complex_physical_object ;
+    ns1:hasTargetDomain ns1:Institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INSTITUTION_IS_A_FACTORY ns1:hasSourceDomain ns1:Factory ;
+    ns1:hasTargetDomain ns1:Institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INSTITUTION_IS_A_MACHINE ns1:hasSourceDomain ns1:Machine ;
+    ns1:hasTargetDomain ns1:Institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INSTITUTION_IS_A_VEHICLE ns1:hasSourceDomain ns1:Vehicle ;
+    ns1:hasTargetDomain ns1:Institution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INSURMOUNTABLE_DIFFERENCES_IN_WEALTH_IS_BARRIER_TO_ACCESSING_A_LOCATION ns1:hasSourceDomain ns1:Barrier_to_accessing_a_location ;
+    ns1:hasTargetDomain ns1:Financial_resource ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INTENSITY_OF_ACTIVITY_IS_HEAT ns1:hasSourceDomain ns1:Heat ;
+    ns1:hasTargetDomain ns1:Activity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INTERESTING_IDEAS_ARE_APPETIZING_FOODS ns1:hasSourceDomain ns1:Food ;
+    ns1:hasTargetDomain ns1:Idea ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INTEREST_IN_IDEAS_IS_APPETITE_FOR_FOOD ns1:hasSourceDomain ns1:Food ;
+    ns1:hasTargetDomain ns1:Idea ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INTERNATIONAL_RELATIONS_ARE_INTERPERSONAL_RELATIONSHIPS ns1:hasSourceDomain ns1:Relationship ;
+    ns1:hasTargetDomain ns1:International_Relations ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:INTERRELATEDNESS_IS_PHYSICAL_INTERCONNECTEDNESS ns1:hasSourceDomain ns1:Physical_connection ;
+    ns1:hasTargetDomain ns1:Spatial_relation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:KEEPING_ASSETS_FROM_BEING_TAXED_IS_PLACING_OBJECTS_IN_PROTECTED_LOCATION ns1:hasSourceDomain ns1:Placing_in_a_protected_location ;
+    ns1:hasTargetDomain ns1:Taxation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:KNOWING_IS_PERCEIVING ns1:hasSourceDomain ns1:Perception ;
+    ns1:hasTargetDomain ns1:Knowing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:KNOWING_IS_SEEING ns1:hasSourceDomain ns1:Seeing ;
+    ns1:hasTargetDomain ns1:Knowing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:KNOWING_IS_TOUCHING ns1:hasSourceDomain ns1:Touching ;
+    ns1:hasTargetDomain ns1:Knowing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LABOR_IS_A_RESOURCE ns1:hasSourceDomain ns1:Resource ;
+    ns1:hasTargetDomain ns1:Labor ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LAISSEZ-FAIRE_MARKET_IS_A_STRICT_FATHER_FAMILY ns1:hasSourceDomain ns1:Strict_father_family ;
+    ns1:hasTargetDomain ns1:Laissez-faire_market ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LAWS_ARE_LIVING_ENTITIES ns1:hasSourceDomain ns1:Animate_entity ;
+    ns1:hasTargetDomain ns1:Law ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LAWS_ARE_OBJECTS ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Law ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LAWS_ARE_PHYSICAL_RESTRAINTS ns1:hasSourceDomain ns1:Restraints ;
+    ns1:hasTargetDomain ns1:Law ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LAWS_ARE_PHYSICAL_STRUCTURES ns1:hasSourceDomain ns1:Physical_structure ;
+    ns1:hasTargetDomain ns1:Law ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LAWS_ARE_PLANTS ns1:hasSourceDomain ns1:Plants ;
+    ns1:hasTargetDomain ns1:Law ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LEADING_A_GROUP_IS_DRIVING_A_VEHICLE ns1:hasSourceDomain ns1:Vehicular_motion ;
+    ns1:hasTargetDomain ns1:Leadership ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LEADING_A_NATION_IS_DRIVING_A_VEHICLE ns1:hasSourceDomain ns1:Vehicular_motion ;
+    ns1:hasTargetDomain ns1:State_leadership ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LEADING_A_NATION_IS_STEERING_A_BOAT ns1:hasSourceDomain ns1:Steering_a_boat ;
+    ns1:hasTargetDomain ns1:State_leadership ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LEADING_IS_A_FORCE_MOVING_AN_OBJECT_FORWARD ns1:hasSourceDomain ns1:Forced_motion ;
+    ns1:hasTargetDomain ns1:Leadership ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LEARNING_IS_ACQUIRING ns1:hasSourceDomain ns1:Gain_possession ;
+    ns1:hasTargetDomain ns1:Learning ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LEARNING_IS_GETTING_NUTRITIOUS_FOOD ns1:hasSourceDomain ns1:Nutritious_food ;
+    ns1:hasTargetDomain ns1:Learning ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LEGISLATIVE_ACTIVITY_IS_MAKING_OBJECTS ns1:hasSourceDomain ns1:Create_object ;
+    ns1:hasTargetDomain ns1:Legislative_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LEGISLATIVE_ACTIVITY_IS_MOTION_ALONG_A_PATH ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Legislative_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LEGISLATURE_IS_A_MACHINE ns1:hasSourceDomain ns1:Machine ;
+    ns1:hasTargetDomain ns1:Legislative_branch ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LEGITIMATE_POWER_IS_AN_ENTRUSTED_OBJECT ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Power ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LESSER_DEGREE_OF_GUN_CONTROL_LEGISLATION_IS_WEAKER_PHYSICAL_RESTRAINT ns1:hasSourceDomain ns1:Physical_weakness ;
+    ns1:hasTargetDomain ns1:Gun_control_legislation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LESS_IS_DOWN ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Quantity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LESS_IS_SMALL ns1:hasSourceDomain ns1:Size ;
+    ns1:hasTargetDomain ns1:Quantity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LIBERAL_MARKET_IS_A_NURTURANT_PARENT_FAMILY ns1:hasSourceDomain ns1:Nurturant_parent_family ;
+    ns1:hasTargetDomain ns1:Liberal_market ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LIFE_IS_AN_OBJECT a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv10 ;
+    ns1:hasExample "a día de hoy tiene la misma vida que tenía antes de enfermarse" ;
+    ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:LIfe ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:LIFE_IS_A_JOURNEY a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r18 ;
+    ns1:hasExample "Amigo, que bueno que todo salió bien y que estés sanito y puedas seguir con tu vida normal." ;
+    ns1:hasSourceDomain ns1:Journey ;
+    ns1:hasTargetDomain ns1:Life ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LIFE_IS_A_PRECIOUS_POSSESSION ns1:hasSourceDomain ns1:Possession ;
+    ns1:hasTargetDomain ns1:Life ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LIFE_IS_A_SEQUENCE_OF_MOTIONS ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Life ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LIFE_IS_VERTICALITY ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Life_cycle ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LIVING_WITH_CANCER_IS_WALKING_A_PATH ns1:hasSourceDomain ns1:Motion_in_a_path ;
+    ns1:hasTargetDomain ns1:Living_with_Cancer ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:LOGICAL_STRUCTURES_ARE_ERECT_COMPLEX_STRUCTURES ns1:hasSourceDomain ns1:Complex_physical_object ;
+    ns1:hasTargetDomain ns1:Logical_structure ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LOSE_TESTICLES_IS_LOSING_MANHOOD ns1:hasSourceDomain ns1:loseManhood ;
+    ns1:hasTargetDomain ns1:notHavingTesticles ;
+    ns1:metaphorProvenance ns1:LP .
+
+<https://w3id.org/framester/metanet/schema/LOSE_TESTICLES_IS_LOSING_MANHOOD
+> a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r27 ;
+    ns1:hasExample "a mi mejor amigo le detectaron cáncer testicular en año pasado (tenia 24 años) le extirparon, le hicieron quimio y ahora esta bien físicamente pero psicológicamente esta echo mierda, ahora cualquier molestia o dolor que tiene lo asocia a que el cáncer volvió, además de que es tan inseguro (le tiene un miedo a que le digan que e poco hombre o weas similares) que el perdió el la practica (con posibilidad de contratación) ya que no le dijo nada a su jefe o demás compañeros cuando se estaba haciendo las quimios por lo cual falto varias veces y no lo justifico" ;
+    ns1:metaphorInvestigatedFor ns1:Spanish .
+
+ns1:LOSING_AN_ELECTION_IS_LOSING_A_BOXING_MATCH ns1:hasSourceDomain ns1:Physical_competition ;
+    ns1:hasTargetDomain ns1:Election ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LOSING_AN_ELECTION_IS_LOSING_A_RACE ns1:hasSourceDomain ns1:Race ;
+    ns1:hasTargetDomain ns1:Election ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LOSING_AN_ELECTION_IS_LOSING_A_WAR ns1:hasSourceDomain ns1:War ;
+    ns1:hasTargetDomain ns1:Election ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:LOW_STATUS_IS_DOWN ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MACHINES_ARE_PEOPLE ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Machine ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MAINTAINING_HIGHER_SOCIAL_STATUS_IS_MAINTAINING_HOLD_ON_PHYSICAL_POSITION ns1:hasSourceDomain ns1:Grasp ;
+    ns1:hasTargetDomain ns1:Social_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MAKING_A_DECISION_IS_WEIGHING ns1:hasSourceDomain ns1:Weighing ;
+    ns1:hasTargetDomain ns1:Decision_making ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MAKING_EDUCATIONAL_OPPORTUNITY_THE_SAME_FOR_EVERYONE_IS_EQUALIZING_QUANTITIES ns1:hasSourceDomain ns1:Equalizing_quantities ;
+    ns1:hasTargetDomain ns1:Educational_opportunities ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MAKING_RELATED_IS_CAUSING_CONTACT ns1:hasSourceDomain ns1:Cause_contact ;
+    ns1:hasTargetDomain ns1:Relationship ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MANNER_OF_ACTION_IS_MANNER_OF_MOVEMENT ns1:hasSourceDomain ns1:Self_propelled_motion ;
+    ns1:hasTargetDomain ns1:Action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MARKET_IS_AN_ACTOR ns1:hasSourceDomain ns1:Actor ;
+    ns1:hasTargetDomain ns1:Market ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MARKET_IS_A_FAMILY ns1:hasSourceDomain ns1:Family ;
+    ns1:hasTargetDomain ns1:Market ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MARKET_IS_A_NATURAL_PROCESS ns1:hasSourceDomain ns1:Natural_process ;
+    ns1:hasTargetDomain ns1:Market ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MARRIAGE_IS_CLOTH ns1:hasSourceDomain ns1:Textile ;
+    ns1:hasTargetDomain ns1:Marriage ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MEANS_ARE_PATHS ns1:hasSourceDomain ns1:Self_propelled_motion_to_a_destination ;
+    ns1:hasTargetDomain ns1:Purposeful_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MEANS_OF_IMPROVING_ECONOMIC_STATUS_ARE_PATHS_TO_MOVING_OUT_OF_A_LOCATION ns1:hasSourceDomain ns1:Paths_out_of_a_location ;
+    ns1:hasTargetDomain ns1:Improving_economic_status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MEDICINE_IS_PERSON a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv7 ;
+    ns1:hasExample "Los síntomas son miles, al principio aguantas bastante bien, pero la droga te va tirando progresivamente" ;
+    ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Medicine ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:MEMORIZATION_IS_WRITING ns1:hasSourceDomain ns1:Writing ;
+    ns1:hasTargetDomain ns1:Memorization ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MIND_IS_A_BODY ns1:hasSourceDomain ns1:Bodily_functioning ;
+    ns1:hasTargetDomain ns1:Cognizing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MIND_IS_A_BUILDING ns1:hasSourceDomain ns1:Building ;
+    ns1:hasTargetDomain ns1:Mind ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MIND_IS_A_COMPUTER ns1:hasSourceDomain ns1:Computer ;
+    ns1:hasTargetDomain ns1:Mind ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MIND_IS_A_CONTAINER a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv10 ;
+    ns1:hasExample "busquen a un oncólogo que les saque todas las dudas" ;
+    ns1:hasSourceDomain ns1:Container,
+        ns1:Containment ;
+    ns1:hasTargetDomain ns1:Mind ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP,
+        ns1:MetaNet .
+
+ns1:MIND_IS_A_MACHINE ns1:hasSourceDomain ns1:Machine ;
+    ns1:hasTargetDomain ns1:Mind ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MIND_IS_A_PERSON a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv10 ;
+    ns1:hasExample "la mente juega un rol muy importante en la enfermedad, si es necesario andá teniendo a mano la nota de psicólogos" ;
+    ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Mind ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:MIND_IS_A_PHYSICAL_STRUCTURE ns1:hasSourceDomain ns1:Physical_structure ;
+    ns1:hasTargetDomain ns1:Mind ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MONEY_IS_A_LIQUID ns1:hasSourceDomain ns1:Liquid ;
+    ns1:hasTargetDomain ns1:Money ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MONEY_IS_A_SUBSTANCE ns1:hasSourceDomain ns1:Substance ;
+    ns1:hasTargetDomain ns1:Money ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MONEY_IS_TIME a ns1:Metaphor ;
+    ns2:hasExample ns1:robzhn1 ;
+    ns1:hasExample "Quizás te podemos ayudar con eso si teniendo algo de plata es más rápido/fácil." ;
+    ns1:hasSourceDomain ns1:Time ;
+    ns1:hasTargetDomain ns1:Money ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:MONEY_TRANSFER_IS_FLUID_MOTION ns1:hasSourceDomain ns1:Fluid_motion ;
+    ns1:hasTargetDomain ns1:Money ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORALITY_IS_A_STRAIGHT_PATH ns1:hasSourceDomain ns1:Straight_path ;
+    ns1:hasTargetDomain ns1:Morality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORALITY_IS_PURITY ns1:hasSourceDomain ns1:Purity ;
+    ns1:hasTargetDomain ns1:Morality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORALITY_IS_STRAIGHTNESS ns1:hasSourceDomain ns1:Straightness ;
+    ns1:hasTargetDomain ns1:Morality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORALITY_IS_STRENGTH ns1:hasSourceDomain ns1:Physical_strength ;
+    ns1:hasTargetDomain ns1:Morality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORALITY_IS_UPRIGHTNESS ns1:hasSourceDomain ns1:Upright_posture ;
+    ns1:hasTargetDomain ns1:Morality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORALITY_IS_WHOLENESS ns1:hasSourceDomain ns1:Part_whole ;
+    ns1:hasTargetDomain ns1:Morality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORAL_ACTION_IS_A_FINANCIAL_TRANSACTION ns1:hasSourceDomain ns1:Financial_transaction ;
+    ns1:hasTargetDomain ns1:Moral_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORAL_ACTION_IS_NURTURANCE ns1:hasSourceDomain ns1:Nurturance ;
+    ns1:hasTargetDomain ns1:Morality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORAL_AGENTS_ARE_NURTURING_PARENTS ns1:hasSourceDomain ns1:Nurturant_parent_family ;
+    ns1:hasTargetDomain ns1:Moral_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORAL_AUTHORITY_IS_PARENTAL_AUTHORITY ns1:hasSourceDomain ns1:Parental_authority ;
+    ns1:hasTargetDomain ns1:Moral_authority ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORAL_CORRUPTION_IS_A_DESTRUCTIVE_FORCE ns1:hasSourceDomain ns1:Destructive_force ;
+    ns1:hasTargetDomain ns1:Moral_corruption ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORAL_GROWTH_IS_PHYSICAL_GROWTH ns1:hasSourceDomain ns1:Increase_size ;
+    ns1:hasTargetDomain ns1:Morality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORAL_IS_STRAIGHT ns1:hasSourceDomain ns1:Straightness ;
+    ns1:hasTargetDomain ns1:Morality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORAL_ORDER_IS_THE_NATURAL_ORDER ns1:hasSourceDomain ns1:Natural_order ;
+    ns1:hasTargetDomain ns1:Moral_order ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORE_IS_BIG ns1:hasSourceDomain ns1:Size ;
+    ns1:hasTargetDomain ns1:Quantity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MORE_IS_UP ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Quantity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:MULTIPLICITY_IS_MASS ns1:hasSourceDomain ns1:Mass ;
+    ns1:hasTargetDomain ns1:Multiplex ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATIONAL_POLITICAL_FUNCTIONALITY_IS_PHYSICAL_INTEGRITY ns1:hasSourceDomain ns1:Condition_of_physical_object ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATIONS_WHO_ABUSE_POWER_ARE_BULLIES ns1:hasSourceDomain ns1:Bully ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATION_IS_AN_OBJECT ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATION_IS_A_BOAT ns1:hasSourceDomain ns1:Boat ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATION_IS_A_BODY ns1:hasSourceDomain ns1:Body ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATION_IS_A_BUILDING ns1:hasSourceDomain ns1:Building ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATION_IS_A_BUSINESS ns1:hasSourceDomain ns1:Business ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATION_IS_A_COMPLEX_STRUCTURE ns1:hasSourceDomain ns1:Complex_physical_object ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATION_IS_A_FAMILY ns1:hasSourceDomain ns1:Family ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATION_IS_A_MACHINE ns1:hasSourceDomain ns1:Machine ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATION_IS_A_PERSON ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATION_IS_A_SYSTEM ns1:hasSourceDomain ns1:System ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATION_IS_A_VEHICLE ns1:hasSourceDomain ns1:Vehicle ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATION_IS_CONTAINER ns1:hasSourceDomain ns1:Resource_container ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATURE_IS_AN_AGENT ns1:hasSourceDomain ns1:Agentive_causation ;
+    ns1:hasTargetDomain ns1:Natural_process ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATURE_IS_A_RESOURCE ns1:hasSourceDomain ns1:Resource ;
+    ns1:hasTargetDomain ns1:Nature ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NATURE_IS_A_STRICT_FATHER ns1:hasSourceDomain ns1:Strict_father_family ;
+    ns1:hasTargetDomain ns1:Nature ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NEGATIVELY_AFFECTING_A_LAW_IS_CAUSING_HARM_TO_A_PHYSICAL_STRUCTURE ns1:hasSourceDomain ns1:Physical_harm ;
+    ns1:hasTargetDomain ns1:Law ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NEGATIVELY_EVALUATED_CONDITIONS_ARE_HARMFUL_AGENTS ns1:hasSourceDomain ns1:Harm ;
+    ns1:hasTargetDomain ns1:Negatively_evaluated_condition ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NONFUNCTIONAL_BUREAUCRACY_IS_A_BROKEN_MACHINE ns1:hasSourceDomain ns1:Machine ;
+    ns1:hasTargetDomain ns1:Bureaucracy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NONFUNCTIONAL_LEGISLATURE_IS_A_BROKEN_MACHINE ns1:hasSourceDomain ns1:Machine ;
+    ns1:hasTargetDomain ns1:Legislative_branch ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NONVISUAL_PERCEPTUAL_SPACE_IS_PHYSICAL_SPACE ns1:hasSourceDomain ns1:Space ;
+    ns1:hasTargetDomain ns1:Perception ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NOT_PAYING_TAXES_IS_AVOIDING_OBSTACLES ns1:hasSourceDomain ns1:Avoiding_obstacles ;
+    ns1:hasTargetDomain ns1:Taxation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:NOW_IS_HERE ns1:hasSourceDomain ns1:Being_at_a_location ;
+    ns1:hasTargetDomain ns1:Time ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:OBTAINING_MEDICINE_IS_FIGHTING_MINISTRY a ns1:Metaphor ;
+    ns2:hasExample ns1:robzhn2 ;
+    ns1:hasExample "Yo no se como es en zona oeste donde estas pero zona norte es un poco mas zafable para hacer todo aunque te lo digo desde ya, pelear contra el ministerio va a ser cosa de todos los dias" ;
+    ns1:hasSourceDomain ns1:Fighting_ministry ;
+    ns1:hasTargetDomain ns1:Obtain_medicine ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:OPPORTUNITIES_ARE_LOCATIONS ns1:hasSourceDomain ns1:Location ;
+    ns1:hasTargetDomain ns1:Opportunities ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:OPPORTUNITIES_ARE_OBJECTS ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Opportunities ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:OPPORTUNITIES_ARE_PATHS ns1:hasSourceDomain ns1:Physical_path ;
+    ns1:hasTargetDomain ns1:Opportunities ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:OPPORTUNITIES_ARE_PORTALS ns1:hasSourceDomain ns1:Portals ;
+    ns1:hasTargetDomain ns1:Opportunities ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ORGANIZATION_IS_A_MACHINE ns1:hasSourceDomain ns1:Machine ;
+    ns1:hasTargetDomain ns1:Organization ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ORGANIZATION_IS_PHYSICAL_STRUCTURE ns1:hasSourceDomain ns1:Physical_structure ;
+    ns1:hasTargetDomain ns1:Organization ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:Ongoing_causation_is_nourishing ns1:hasSourceDomain ns1:Food ;
+    ns1:hasTargetDomain ns1:Causation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PAPERWORK_IS_PAINFULL a ns1:Metaphor ;
+    ns2:hasExample ns1:robzhn2 ;
+    ns1:hasExample "Mi amiga se curó del cáncer de mama pero lamentablemente ahora, falta la resonancia, tendría cancer de hígado, estoy destrozado pero por suerte conseguimos lugar rápido para que se haga todo de nuevo, si tenemos suerte su oncólogo va a iniciar los trámites para hacerle tratamiento no invasivo y ahorrarse ooootra vez esa quimio de mierda pero como ya sabras es un dolor de pija." ;
+    ns1:hasSourceDomain ns1:Physical_pain ;
+    ns1:hasTargetDomain ns1:Paperwork ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:PASSION_IS_HEAT ns1:hasSourceDomain ns1:Heat ;
+    ns1:hasTargetDomain ns1:Desire ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PAST_IS_BEHIND ns1:hasSourceDomain ns1:Back ;
+    ns1:hasTargetDomain ns1:Time ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PEOPLE_ARE_ANIMALS ns1:hasSourceDomain ns1:Animal ;
+    ns1:hasTargetDomain ns1:Person ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PEOPLE_ARE_PLANTS ns1:hasSourceDomain ns1:Plants ;
+    ns1:hasTargetDomain ns1:Person ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PERSISTING_IS_REMAINING_ERECT ns1:hasSourceDomain ns1:Persistence ;
+    ns1:hasTargetDomain ns1:Erectness ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PERSONAL_PREFERENCE_IS_TASTE ns1:hasSourceDomain ns1:Taste ;
+    ns1:hasTargetDomain ns1:Personal_preferance ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PHASE_OF_AN_ELECTION_IS_LEG_IN_A_RACE ns1:hasSourceDomain ns1:Race ;
+    ns1:hasTargetDomain ns1:Election ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PHYSICAL_STRENGTH_IS_VERTICALITY ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Physical_strength ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:POLITICAL_IDEOLOGIES_ARE_LIVING_ENTITIES ns1:hasSourceDomain ns1:Biological_entity ;
+    ns1:hasTargetDomain ns1:Ideology ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:POLITICAL_PARTIES_ARE_CONTAINERS ns1:hasSourceDomain ns1:Containment ;
+    ns1:hasTargetDomain ns1:Political_party ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:POLITICAL_PARTIES_ARE_PEOPLE ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Political_party ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:POLITICAL_REGION_IS_A_VEHICLE ns1:hasSourceDomain ns1:Vehicle ;
+    ns1:hasTargetDomain ns1:Political_region ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:POSITIVITY_IS_VERTICALITY ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Positivity_scale ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:POVERTY_IS_A_CRIME ns1:hasSourceDomain ns1:Crime ;
+    ns1:hasTargetDomain ns1:Poverty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:POVERTY_IS_A_DISEASE ns1:hasSourceDomain ns1:Disease ;
+    ns1:hasTargetDomain ns1:Poverty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:POVERTY_IS_A_FIERCE_CREATURE ns1:hasSourceDomain ns1:Fierce_animal ;
+    ns1:hasTargetDomain ns1:Poverty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:POVERTY_IS_A_MOTION_IMPEDIMENT ns1:hasSourceDomain ns1:Motion_impediments ;
+    ns1:hasTargetDomain ns1:Poverty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:POVERTY_IS_A_PLANT ns1:hasSourceDomain ns1:Plants ;
+    ns1:hasTargetDomain ns1:Poverty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:POVERTY_IS_A_WEED ns1:hasSourceDomain ns1:Weed ;
+    ns1:hasTargetDomain ns1:Poverty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:POVERTY_IS_PHYSICAL_HARM ns1:hasSourceDomain ns1:Physical_harm ;
+    ns1:hasTargetDomain ns1:Poverty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:POWER_IS_A_POSSESSED_OBJECT ns1:hasSourceDomain ns1:Possession ;
+    ns1:hasTargetDomain ns1:Power ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:POWER_IS_CENTRALITY ns1:hasSourceDomain ns1:Center_periphery ;
+    ns1:hasTargetDomain ns1:Power ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PREPARING_IDEAS_TO_BE_UNDERSTOOD_IS_FOOD_PREPARATION ns1:hasSourceDomain ns1:Food_preparation ;
+    ns1:hasTargetDomain ns1:Cognizing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PREVENTED_CHANGE_OF_STATE_IS_PREVENTED_CHANGE_OF_LOCATION ns1:hasSourceDomain ns1:Source_path_goal ;
+    ns1:hasTargetDomain ns1:Change_of_state ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PREVENTING_ECONOMIC_HARDSHIP_IS_SHIELDING_FROM_PHYSICAL_HARM ns1:hasSourceDomain ns1:Protect_against_contact ;
+    ns1:hasTargetDomain ns1:Economic_difficulty ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PREVENTING_ENACTMENT_OF_LEGISLATION_IS_BLOCKING_MOTION ns1:hasSourceDomain ns1:Motion_impediments ;
+    ns1:hasTargetDomain ns1:Legislation_enactment ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PREVENTING_UTILIZATION_OF_EDUCATIONAL_RESOURCES_IS_CLOSING_A_PORTAL ns1:hasSourceDomain ns1:Closing_a_portal ;
+    ns1:hasTargetDomain ns1:Educational_opportunities ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PROGRESSING_THROUGH_LIFE_IS_MOVING_ALONG_A_PATH ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Life ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PROGRESSING_THROUGH_LIFE_IS_MOVING_THROUGH_A_TERRAIN ns1:hasSourceDomain ns1:Forward_motion ;
+    ns1:hasTargetDomain ns1:Life ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PROGRESS_IS_FORWARD_MOTION_ALONG_A_PATH ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PROVIDE_EDUCATIONAL_OPPORTUNITY_IS_PROVIDING_A_RESOURCE ns1:hasSourceDomain ns1:Resource ;
+    ns1:hasTargetDomain ns1:Educational_opportunities ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PROVING_IS_SHOWING ns1:hasSourceDomain ns1:Cause_to_see ;
+    ns1:hasTargetDomain ns1:Reasoning ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PSYCHOLOGICAL_HARM_IS_PHYSICAL_INJURY ns1:hasSourceDomain ns1:Physical_harm ;
+    ns1:hasTargetDomain ns1:Psychological_harm ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PURIFYING_IS_CLEANSING ns1:hasSourceDomain ns1:Cleanliness ;
+    ns1:hasTargetDomain ns1:Purity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PURITY_IS_CLEANLINESS ns1:hasSourceDomain ns1:Cleanliness ;
+    ns1:hasTargetDomain ns1:Purity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PURPOSEFUL_ACTION_IS_SELF-PROPELLED_MOTION_TO_A_DESTINATION ns1:hasSourceDomain ns1:Self_propelled_motion_to_a_destination ;
+    ns1:hasTargetDomain ns1:Purposeful_action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:PURPOSEFUL_THINKING_IS_GOAL-DIRECTED_MOTION ns1:hasSourceDomain ns1:Self_propelled_motion_to_a_destination ;
+    ns1:hasTargetDomain ns1:Thinking_about ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:QUALITIES_ARE_SUBSTANCES ns1:hasSourceDomain ns1:Substance ;
+    ns1:hasTargetDomain ns1:Quality ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:QUANTITY_IS_SIZE ns1:hasSourceDomain ns1:Size ;
+    ns1:hasTargetDomain ns1:Quantity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:QUANTITY_IS_VERTICALITY ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Quantity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:REFINING_A_LAW_IS_TRIMMING_A_PLANT ns1:hasSourceDomain ns1:Tending_to_plants ;
+    ns1:hasTargetDomain ns1:Law ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:REGULATION_IS_A_DISEASE ns1:hasSourceDomain ns1:Disease ;
+    ns1:hasTargetDomain ns1:Regulation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:RELATEDNESS_IS_PROXIMITY ns1:hasSourceDomain ns1:Proximity ;
+    ns1:hasTargetDomain ns1:Abstract_relatedness ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:RELATIONSHIPS_ARE_COMPLEX_STRUCTURES ns1:hasSourceDomain ns1:Complex_physical_object ;
+    ns1:hasTargetDomain ns1:Relationship ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:RELATIONSHIPS_ARE_CONTAINERS ns1:hasSourceDomain ns1:Containing ;
+    ns1:hasTargetDomain ns1:Relationship ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:RELATIONSHIPS_ARE_OBJECTS ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Relationship ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:RELATIONSHIPS_ARE_PHYSICAL_STRUCTURES ns1:hasSourceDomain ns1:Physical_structure ;
+    ns1:hasTargetDomain ns1:Relationship ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:RELATIONSHIP_IS_A_BOUNDED_REGION_IN_SPACE ns1:hasSourceDomain ns1:Bounded_region ;
+    ns1:hasTargetDomain ns1:Relationship ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:REMOVING_IS_LOOSING a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r36 ;
+    ns1:hasExample "Quedaste por tratamiento hormonal de por vida? al perder el coco, la produccion de testosterona deberia caer a la mitad lo que te dejaria en valores muy bajos." ;
+    ns1:hasSourceDomain ns1:Loosing ;
+    ns1:hasTargetDomain ns1:Removed_Testicle ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:REMOVING_IS_SOLUTION a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r36 ;
+    ns1:hasExample "por lo que tengo entendido, cuando se detecta un tumor en el coco, lo primero es extirpar. " ;
+    ns1:hasSourceDomain ns1:Solution ;
+    ns1:hasTargetDomain ns1:Removed_Testicle ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:RESOURCE_IS_A_LIQUID ns1:hasSourceDomain ns1:Liquid ;
+    ns1:hasTargetDomain ns1:Resource ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:RIGHTS_ARE_PHYSICAL_ENTITIES ns1:hasSourceDomain ns1:Physical_entity ;
+    ns1:hasTargetDomain ns1:Rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:RIGHTS_ARE_POSSESSIONS ns1:hasSourceDomain ns1:Possessable_object ;
+    ns1:hasTargetDomain ns1:Rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:RIGHTS_ARE_SHIELDS_FROM_HARM ns1:hasSourceDomain ns1:Protecting ;
+    ns1:hasTargetDomain ns1:Rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:RIGHTS_ARE_TERRITORIES ns1:hasSourceDomain ns1:Territory ;
+    ns1:hasTargetDomain ns1:Rights ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ROMANTIC_RELATIONSHIPS_ARE_VEHICLES ns1:hasSourceDomain ns1:Vehicle ;
+    ns1:hasTargetDomain ns1:Romantic_relationship ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ROMANTIC_RELATIONSHIP_ENCOUNTERING_DIFFICULTIES_IS_A_VEHICLE_ENCOUNTERING_OBSTACLES ns1:hasSourceDomain ns1:Journey ;
+    ns1:hasTargetDomain ns1:Romantic_relationship ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:ROMANTIC_RELATIONSHIP_IS_A_JOURNEY ns1:hasSourceDomain ns1:Journey ;
+    ns1:hasTargetDomain ns1:Romantic_relationship ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SAD_IS_DOWN ns1:hasSourceDomain ns1:Being_at_a_Low_Location ;
+    ns1:hasTargetDomain ns1:Sadness ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SCALES_ARE_PATHS ns1:hasSourceDomain ns1:Source_path_goal ;
+    ns1:hasTargetDomain ns1:Scale ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SEEING_IS_TOUCHING ns1:hasSourceDomain ns1:Touching ;
+    ns1:hasTargetDomain ns1:Seeing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SEEKING_KNOWLEDGE_IS_SEARCHING ns1:hasSourceDomain ns1:Searching ;
+    ns1:hasTargetDomain ns1:Knowing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SELECTION_IS_ADOPTION ns1:hasSourceDomain ns1:Adoption ;
+    ns1:hasTargetDomain ns1:Selection ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SELF-INITIATED_STATE_CHANGE_IS_SELF-PROPELLED_MOTION ns1:hasSourceDomain ns1:Self_propelled_motion_to_a_destination ;
+    ns1:hasTargetDomain ns1:Self-initiated_state_change ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SENSING_IS_SMELLING ns1:hasSourceDomain ns1:Smelling ;
+    ns1:hasTargetDomain ns1:Perception ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SEQUENCE_OF_ACTIONS_IS_A_SEQUENCE_OF_MOVEMENTS ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Action ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SHARING_INFORMATION_IS_THROWING a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv10,
+        ns1:s7s5jv4 ;
+    ns1:hasExample "Mirá yo al contrario con mi viejo tuve muy buena experiencia en el fuesmen (fundacion escuela de medicina nuclear), creo que solo hacen rayos ahí, no se si hay solo en mi provincia o en el resto del pais, el gran problema fue que Ioma reintegre siendo que vivimos en otra provincia y somos \"derivados\" a otra obra social mucho peor que la porqueria de Ioma, de todas formas eso, te tiro el dato de fuesmen x si necesita rayos",
+        "Para sumar, te tiro la experiencia que tengo con mi vieja" ;
+    ns1:hasSourceDomain ns1:Throwing ;
+    ns1:hasTargetDomain ns1:Share_information ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:SICKNESS_IS_DOWN ns1:hasSourceDomain ns1:Being_at_a_Low_Location ;
+    ns1:hasTargetDomain ns1:Health ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SIMILARITY_IS_PROXIMITY ns1:hasSourceDomain ns1:Proximal_distal ;
+    ns1:hasTargetDomain ns1:Similarity ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SIMPLE_IDEAS_ARE_WORDS ns1:hasSourceDomain ns1:Word ;
+    ns1:hasTargetDomain ns1:Idea ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SOCIAL_FUNCTIONING_IS_PHYSICAL_HEALTH ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Society ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SOCIAL_GROUPS_ARE_BUILDINGS ns1:hasSourceDomain ns1:Building ;
+    ns1:hasTargetDomain ns1:Social_group ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SOCIAL_GROUPS_ARE_COMPLEX_STRUCTURES ns1:hasSourceDomain ns1:Complex_physical_object ;
+    ns1:hasTargetDomain ns1:Social_group ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SOCIAL_GROUPS_ARE_CONTAINERS ns1:hasSourceDomain ns1:Containment ;
+    ns1:hasTargetDomain ns1:Social_group ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SOCIAL_GROUP_IS_A_BOUNDED_REGION ns1:hasSourceDomain ns1:Bounded_region ;
+    ns1:hasTargetDomain ns1:Social_group ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SOCIAL_GROUP_IS_A_FABRIC ns1:hasSourceDomain ns1:Textile ;
+    ns1:hasTargetDomain ns1:Social_group ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SOCIAL_GROUP_IS_A_FAMILY ns1:hasSourceDomain ns1:Family ;
+    ns1:hasTargetDomain ns1:Social_group ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SOCIAL_ORGANIZATIONS_ARE_PLANTS ns1:hasSourceDomain ns1:Plants ;
+    ns1:hasTargetDomain ns1:Organization ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SOCIAL_PROBLEMS_ARE_ANIMATE_ENTITIES ns1:hasSourceDomain ns1:Animate_entity ;
+    ns1:hasTargetDomain ns1:Social_problems ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SOCIAL_PROBLEMS_ARE_DISEASES ns1:hasSourceDomain ns1:Disease ;
+    ns1:hasTargetDomain ns1:Social_problems ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SOCIAL_PROBLEMS_ARE_PHYSICAL_AFFLICTIONS ns1:hasSourceDomain ns1:Physical_affliction ;
+    ns1:hasTargetDomain ns1:Social_problems ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SOCIETY_IS_A_COMPLEX_STRUCTURE ns1:hasSourceDomain ns1:Complex_physical_object ;
+    ns1:hasTargetDomain ns1:Society ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SOCIETY_IS_A_PERSON ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Society ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SOLVING_A_PROBLEM_IS_FIXING_A_BROKEN_OBJECT ns1:hasSourceDomain ns1:Fixing ;
+    ns1:hasTargetDomain ns1:Solving_a_problem ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:STATES_ARE_LOCATIONS ns1:hasSourceDomain ns1:Trajector_landmark ;
+    ns1:hasTargetDomain ns1:State ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:STATES_ARE_PHYSICAL_OBJECTS ns1:hasSourceDomain ns1:Physical_entity ;
+    ns1:hasTargetDomain ns1:State ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:STATE_OF_NATION_IS_LOCATION_ALONG_PATH ns1:hasSourceDomain ns1:Bounded_region ;
+    ns1:hasTargetDomain ns1:Nation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:STATUS_IS_VERTICALITY ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Status ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:STRENGTH_IS_OBJECT a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv2 ;
+    ns1:hasExample "A seguir metiendole como sea aunque duela, no tengamos fuerzas o hacer todo solo porque nadie ayuda, por los que más queremos siempre vamos a dar todo." ;
+    ns1:hasSourceDomain ns1:Object ;
+    ns1:hasTargetDomain ns1:Strength ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:STRENGTH_IS_TREATMENT a ns1:Metaphor ;
+    ns2:hasExample ns1:robzhn11,
+        ns1:s7s5jv10,
+        ns1:s7s5jv4,
+        ns1:s7s5jv5,
+        ns1:s7s5jv7,
+        ns1:s7s5jv8 ;
+    ns1:hasExample "Bueno, perdon por la paja mental...la mejor para ustedes, metele fuerza que ella te va a necesitar entero, te lo digo por experiencia personal, el apoyo animico es super importante.",
+        "Fuerza",
+        "Muchisima fuerza a vos y tu novia",
+        "No te voy a decir fuerza, se que ella está dando el 120%, es más de lo que permite el cuerpo, el solo experimentar eso ya es admirable, mando un abrazo a la distancia y deseo lo mejor para ella.",
+        "fuerza, yo tengo la suerte de no atenderme en lo público y estoy agradecida, los medicamentos y demáses swiss medical me los da en menos de 24 hs, ni hablar de estudios, cirugias y eso. espero realmente que sigas a su lado y sepas que podes hacer todo el quilombo que quieras para poder buscar lo mejor para ella.",
+        "les mando un abrazo y mucha fuerza" ;
+    ns1:hasSourceDomain ns1:Treatment ;
+    ns1:hasTargetDomain ns1:Strength ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:SUBJUGATION_IS_DOWN ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SURVIVING_CANCER_IS_HARMING_CANCER ns1:hasSourceDomain ns1:Attacking ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SURVIVING_CANCER_IS_WINNING_A_COMPETITION ns1:hasSourceDomain ns1:Competition ;
+    ns1:hasTargetDomain ns1:Cancer ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:SYMPATHY_IS_WARMTH ns1:hasSourceDomain ns1:Heat ;
+    ns1:hasTargetDomain ns1:Sympathy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TAXATION_IS_A_BURDEN ns1:hasSourceDomain ns1:Burden ;
+    ns1:hasTargetDomain ns1:Taxation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TAXATION_IS_A_FORCE ns1:hasSourceDomain ns1:Force ;
+    ns1:hasTargetDomain ns1:Taxation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TAXATION_IS_CAUSING_HARM ns1:hasSourceDomain ns1:Physical_harm ;
+    ns1:hasTargetDomain ns1:Taxation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TAXATION_IS_FORCEFUL_REMOVAL_OF_A_SUBSTANCE ns1:hasSourceDomain ns1:Release_liquid ;
+    ns1:hasTargetDomain ns1:Taxation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TAXATION_IS_IMPEDIMENTS_TO_MOTION ns1:hasSourceDomain ns1:Motion_impediments ;
+    ns1:hasTargetDomain ns1:Taxation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TAXATION_IS_INVESTMENT ns1:hasSourceDomain ns1:Investment ;
+    ns1:hasTargetDomain ns1:Taxation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TAXATION_IS_PUNISHMENT ns1:hasSourceDomain ns1:Punishment ;
+    ns1:hasTargetDomain ns1:Taxation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TAXATION_IS_SLAVERY ns1:hasSourceDomain ns1:Servitude ;
+    ns1:hasTargetDomain ns1:Taxation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TAXATION_IS_THEFT ns1:hasSourceDomain ns1:Theft ;
+    ns1:hasTargetDomain ns1:Taxation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TAXES_ARE_DISEASES ns1:hasSourceDomain ns1:Disease ;
+    ns1:hasTargetDomain ns1:Taxation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TAXES_ARE_DUES ns1:hasSourceDomain ns1:Group_membership ;
+    ns1:hasTargetDomain ns1:Taxation ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TERMINATION_OF_CONTROL_IS_LOSS_OF_A_POSSESSION ns1:hasSourceDomain ns1:Lose_possession ;
+    ns1:hasTargetDomain ns1:Control ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TESTICLES_ARE_BALLS a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r23,
+        ns1:12yxw6r28 ;
+    ns1:hasExample """ -Wn desubicao, deja de rascarte las bolas en publico.
+
+-Estoy previniendo un cáncer testicular!! """,
+        "El bolas tristes" ;
+    ns1:hasSourceDomain ns1:Balls ;
+    ns1:hasTargetDomain ns1:Testicles ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:TESTICLES_ARE_COCONUTS a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r1,
+        ns1:12yxw6r26,
+        ns1:12yxw6r32,
+        ns1:12yxw6r34,
+        ns1:12yxw6r36,
+        ns1:12yxw6r41,
+        ns1:12yxw6r50,
+        ns1:12yxw6r55 ;
+    ns1:hasExample "A cuidarse los coquitos",
+        "Dicho lo anterior, no tengo los cocos perfectamente circular, son así?",
+        "El coco del juicio",
+        "El coco final",
+        "El predominio de este tipo de tumores en hombres es bastante alta antes de los 35 años, así que la única forma es, literal, tocarse los cocos",
+        "He andado un tiempo con frecuente dolor en los coquimbos....",
+        "Tu post me hizo revisarme los cocos. 10/10 gracias ",
+        "me duelen los coquitos",
+        "por lo que tengo entendido, cuando se detecta un tumor en el coco, lo primero es extirpar. " ;
+    ns1:hasSourceDomain ns1:Coconut ;
+    ns1:hasTargetDomain ns1:Testicles ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:THEORIES_ARE_BUILDINGS ns1:hasSourceDomain ns1:Building ;
+    ns1:hasTargetDomain ns1:Theory ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:THEORIES_ARE_COMPLEX_STRUCTURES ns1:hasSourceDomain ns1:Complex_physical_object ;
+    ns1:hasTargetDomain ns1:Theory ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:THINKING_IS_LINGUISTIC_ACTIVITY ns1:hasSourceDomain ns1:Linguistic_activity ;
+    ns1:hasTargetDomain ns1:Cognizing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:THINKING_IS_MOVING ns1:hasSourceDomain ns1:Motion ;
+    ns1:hasTargetDomain ns1:Thinking_about ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:THINKING_IS_OBJECT_MANIPULATION ns1:hasSourceDomain ns1:Object_manipulation ;
+    ns1:hasTargetDomain ns1:Thinking_about ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:THINKING_IS_PERCEIVING ns1:hasSourceDomain ns1:Perception ;
+    ns1:hasTargetDomain ns1:Thinking_about ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:THINKING_IS_SPEAKING ns1:hasSourceDomain ns1:Speaking ;
+    ns1:hasTargetDomain ns1:Cognizing ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:THOUGHTS_ARE_COMPANY a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv10 ;
+    ns1:hasExample "dejar a alguien solo con sus pensamientos es muy jodido" ;
+    ns1:hasSourceDomain ns1:Company ;
+    ns1:hasTargetDomain ns1:Thoughts ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:THOUGHTS_ARE_PERSONS ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Thoughts ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:TIME_IS_A_COMMODITY ns1:hasSourceDomain ns1:Commodity ;
+    ns1:hasTargetDomain ns1:Time ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TIME_IS_A_LANDSCAPE_THROUGH_WHICH_THE_OBSERVER_MOVES ns1:hasSourceDomain ns1:Motion_along_a_path ;
+    ns1:hasTargetDomain ns1:Time ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TIME_IS_A_MOVING_OBJECT ns1:hasSourceDomain ns1:Moving_object ;
+    ns1:hasTargetDomain ns1:Time ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TIME_IS_A_RESOURCE ns1:hasSourceDomain ns1:Resource ;
+    ns1:hasTargetDomain ns1:Time ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TIME_IS_A_SUBSTANCE ns1:hasSourceDomain ns1:Substance ;
+    ns1:hasTargetDomain ns1:Time ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TIME_IS_MONEY ns1:hasSourceDomain ns1:Money ;
+    ns1:hasTargetDomain ns1:Time ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TIME_PERIODS_ARE_CONTAINERS ns1:hasSourceDomain ns1:Containment ;
+    ns1:hasTargetDomain ns1:Time ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TREATMENT_IS_A_BALANCE a ns1:Metaphor ;
+    ns2:hasExample ns1:12yxw6r9 ;
+    ns1:hasExample "Me paso parecido por el 2017, me detectaron un tumor en el testiculo izquierdo, me lo scaron y hice 4 ciclos de quimio. Ahora el año pasado me detectaron un tumorcillo en el derecho, demasiado grande para salvarlo (2cm de diametro) y mas encima era maligno asi que tuve que hacer 2 ciclo de quimioterapia que termine hace unas 3 semanas ya." ;
+    ns1:hasSourceDomain ns1:Balance ;
+    ns1:hasTargetDomain ns1:Treatment ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:TREATMENT_IS_PERSON a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv9 ;
+    ns1:hasExample "te da un medicamento agresivo que todavía no se lo pasaron que le va a quitar un tipo de defensas en teoría según lo que leí en internet no te lo dan si tuviste hepatitis," ;
+    ns1:hasSourceDomain ns1:Person ;
+    ns1:hasTargetDomain ns1:Treatment ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:TREATMENT_PHASE_IS_HEIGTH a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv3 ;
+    ns1:hasExample "Según tengo entendido, el mejor hospital publico en Oncologia es el Roffo. No sé si te sirve a esta altura del tratamiento." ;
+    ns1:hasSourceDomain ns1:Heigth ;
+    ns1:hasTargetDomain ns1:Phase_treatment ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:TRUST_IN_GOVERNMENT_IS_A_BUILDING ns1:hasSourceDomain ns1:Building ;
+    ns1:hasTargetDomain ns1:Government_legitimacy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TRUST_RELATIONSHIPS_ARE_BUILDINGS ns1:hasSourceDomain ns1:Building ;
+    ns1:hasTargetDomain ns1:Trust_relationship ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:TRYING_TO_SURVIVE_CANCER_IS_GIVING_120_ENERGY a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv7 ;
+    ns1:hasExample "No te voy a decir fuerza, se que ella está dando el 120%, es más de lo que permite el cuerpo, el solo experimentar eso ya es admirable, mando un abrazo a la distancia y deseo lo mejor para ella." ;
+    ns1:hasSourceDomain ns1:Over_limits ;
+    ns1:hasTargetDomain ns1:Effort_to_survive ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:UNCONSCIOUS_IS_DOWN ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Consciousness ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:UNCONTROLLED_CRIME_IS_A_RAMPAGING_ANIMAL ns1:hasSourceDomain ns1:Animal ;
+    ns1:hasTargetDomain ns1:Crime ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:UNDERSTANDING_IS_DIGESTING ns1:hasSourceDomain ns1:Digestion ;
+    ns1:hasTargetDomain ns1:Understanding ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:UNDERSTANDING_IS_FOLLOWING ns1:hasSourceDomain ns1:Guided_motion ;
+    ns1:hasTargetDomain ns1:Understanding ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:UNDERSTANDING_IS_GRASPING ns1:hasSourceDomain ns1:Object_manipulation ;
+    ns1:hasTargetDomain ns1:Understanding ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:VIOLENCE_IS_A_FLUID ns1:hasSourceDomain ns1:Fluid_motion ;
+    ns1:hasTargetDomain ns1:Violence ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:VISUAL_FIELD_IS_A_CONTAINER ns1:hasSourceDomain ns1:Containment ;
+    ns1:hasTargetDomain ns1:Visual_field ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:VOTING_IS_SPEAKING ns1:hasSourceDomain ns1:Speaking ;
+    ns1:hasTargetDomain ns1:Voting ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WEALTH_IS_A_RESOURCE ns1:hasSourceDomain ns1:Resource ;
+    ns1:hasTargetDomain ns1:Wealth ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WEALTH_IS_A_SUBSTANCE ns1:hasSourceDomain ns1:Substance ;
+    ns1:hasTargetDomain ns1:Wealth ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WEALTH_IS_LINEAR_SPATIAL_SCALE ns1:hasSourceDomain ns1:Scale ;
+    ns1:hasTargetDomain ns1:Wealth ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WEALTH_IS_PROTECTION_AGAINST_HARM ns1:hasSourceDomain ns1:Protect_against_contact ;
+    ns1:hasTargetDomain ns1:Wealth ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WEALTH_REDISTRIBUTION_IS_RESOURCE_TRANSFER ns1:hasSourceDomain ns1:Resource_transfer ;
+    ns1:hasTargetDomain ns1:Wealth_redistribution ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WELL-BEING_IS_VERTICALITY ns1:hasSourceDomain ns1:Verticality ;
+    ns1:hasTargetDomain ns1:Well-being ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WELL-BEING_IS_WEALTH ns1:hasSourceDomain ns1:Wealth ;
+    ns1:hasTargetDomain ns1:Well-being ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WELL-FUNCTIONING_BUREAUCRACY_IS_A_SMOOTHLY_FUNCTIONING_MACHINE ns1:hasSourceDomain ns1:Machine ;
+    ns1:hasTargetDomain ns1:Bureaucracy ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WHOLES_ARE_CONTAINERS ns1:hasSourceDomain ns1:Containing ;
+    ns1:hasTargetDomain ns1:Part_whole ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WHOLES_ARE_POSSESSORS ns1:hasSourceDomain ns1:Possession ;
+    ns1:hasTargetDomain ns1:Part_whole ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WINNING_AN_ELECTION_IS_WINNING_A_BOXING_MATCH ns1:hasSourceDomain ns1:Physical_competition ;
+    ns1:hasTargetDomain ns1:Election ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WINNING_AN_ELECTION_IS_WINNING_A_RACE ns1:hasSourceDomain ns1:Race ;
+    ns1:hasTargetDomain ns1:Election ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WINNING_AN_ELECTION_IS_WINNING_A_WAR ns1:hasSourceDomain ns1:War ;
+    ns1:hasTargetDomain ns1:Election ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WORDS_ARE_CONTAINERS ns1:hasSourceDomain ns1:Containing ;
+    ns1:hasTargetDomain ns1:Word ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:WORSENING_IS_BEING_THROWN_OUT a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv7 ;
+    ns1:hasExample "Los síntomas son miles, al principio aguantas bastante bien, pero la droga te va tirando progresivamente" ;
+    ns1:hasSourceDomain ns1:Throwing ;
+    ns1:hasTargetDomain ns1:Worsening ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:LP .
+
+ns1:WORSENING_MOOD_IS_DOWNWARD_MOTION a ns1:Metaphor ;
+    ns2:hasExample ns1:s7s5jv10 ;
+    ns1:hasExample "Va a tener sus días de altos y bajos, pero tratá de que solo sean momentos puntuales y no algo del día a día" ;
+    ns1:hasSourceDomain ns1:Downward_motion ;
+    ns1:hasTargetDomain ns1:Emotion ;
+    ns1:metaphorInvestigatedFor ns1:Spanish ;
+    ns1:metaphorProvenance ns1:MetaNet .
+
+ns1:12yxw6r1 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 1 ;
+    ns2:hasVerbalization "El coco del juicio" ;
+    ns2:hasWordIndex 1 .
+
+ns1:12yxw6r23 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 23 ;
+    ns2:hasVerbalization "El bolas tristes" ;
+    ns2:hasWordIndex 1 .
+
+ns1:12yxw6r26 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 26 ;
+    ns2:hasVerbalization "El predominio de este tipo de tumores en hombres es bastante alta antes de los 35 años, así que la única forma es, literal, tocarse los cocos" ;
+    ns2:hasWordIndex 29 .
+
+ns1:12yxw6r28 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 28 ;
+    ns2:hasVerbalization """ -Wn desubicao, deja de rascarte las bolas en publico.
+
+-Estoy previniendo un cáncer testicular!! """ ;
+    ns2:hasWordIndex 7 .
+
+ns1:12yxw6r31 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 31 ;
+    ns2:hasVerbalization "Sería interesante saber las estadísticas de cáncer de testículo. a un hermano mio le dio (a los 17) y a un amigo a los 42, a otro amigo le salieron quistes, y tengo como 4 amigos no+. ¿Alguien tiene el dato? " ;
+    ns2:hasWordIndex 15 .
+
+ns1:12yxw6r32 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 32 ;
+    ns2:hasVerbalization "Tu post me hizo revisarme los cocos. 10/10 gracias " ;
+    ns2:hasWordIndex 6 .
+
+ns1:12yxw6r34 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 34 ;
+    ns2:hasVerbalization "El coco final" ;
+    ns2:hasWordIndex 1 .
+
+ns1:12yxw6r5 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 5 ;
+    ns2:hasVerbalization "Que bueno que no tenías cancer wn" ;
+    ns2:hasWordIndex 4 .
+
+ns1:12yxw6r50 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 50 ;
+    ns2:hasVerbalization "Dicho lo anterior, no tengo los cocos perfectamente circular, son así?" ;
+    ns2:hasWordIndex 31 .
+
+ns1:12yxw6r51 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 51 ;
+    ns2:hasVerbalization "¿en cuanto tiempo te mata un cáncer testicular?" ;
+    ns2:hasWordIndex 5 .
+
+ns1:12yxw6r55 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 55 ;
+    ns2:hasVerbalization "He andado un tiempo con frecuente dolor en los coquimbos....",
+        "me duelen los coquitos" ;
+    ns2:hasWordIndex 9,
+        160 .
+
+ns1:12yxw6r7 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 7 ;
+    ns2:hasVerbalization "Estuvo un año con quimioterapia, pero, afortunadamente, todo salió bien" ;
+    ns2:hasWordIndex 49 .
+
+ns1:Absence a ns1:Frame .
+
+ns1:Abstract_relatedness a ns1:Frame .
+
+ns1:Access_to_education a ns1:Frame .
+
+ns1:Access_to_knowledge a ns1:Frame .
+
+ns1:Activating a ns1:Frame .
+
+ns1:Actor a ns1:Frame .
+
+ns1:Addiction a ns1:Frame .
+
+ns1:Adoption a ns1:Frame .
+
+ns1:Affection a ns1:Frame .
+
+ns1:Agreement a ns1:Frame .
+
+ns1:Agression a ns1:Frame .
+
+ns1:Agressor a ns1:Frame .
+
+ns1:Aid_to_upward_motion a ns1:Frame .
+
+ns1:Aids_to_motion a ns1:Frame .
+
+ns1:Alliances a ns1:Frame .
+
+ns1:Analysis a ns1:Frame .
+
+ns1:Answers a ns1:Frame .
+
+ns1:Arithmetic a ns1:Frame .
+
+ns1:Ask a ns1:Frame .
+
+ns1:Ass a ns1:Frame .
+
+ns1:Avoiding_obstacles a ns1:Frame .
+
+ns1:Awakening a ns1:Frame .
+
+ns1:Back a ns1:Frame .
+
+ns1:Bad_doctors a ns1:Frame .
+
+ns1:Badness a ns1:Frame .
+
+ns1:Balance a ns1:Frame .
+
+ns1:Balls a ns1:Frame .
+
+ns1:Barrier a ns1:Frame .
+
+ns1:Be_the_best a ns1:Frame .
+
+ns1:Being_complete a ns1:Frame .
+
+ns1:Being_high_on_a_scale a ns1:Frame .
+
+ns1:Being_in_a_Bounded_Region a ns1:Frame .
+
+ns1:Being_in_the_middle_of_a_scale a ns1:Frame .
+
+ns1:Being_low_on_a_scale a ns1:Frame .
+
+ns1:Being_made_of_shit a ns1:Frame .
+
+ns1:Being_mistreated a ns1:Frame .
+
+ns1:Being_psycologically_bad a ns1:Frame .
+
+ns1:Being_psycologically_good a ns1:Frame .
+
+ns1:Belief a ns1:Frame .
+
+ns1:Bird a ns1:Frame .
+
+ns1:Boat a ns1:Frame .
+
+ns1:Boat_motion_x-schema a ns1:Frame .
+
+ns1:Body_weight a ns1:Frame .
+
+ns1:Braveness a ns1:Frame .
+
+ns1:Cancer_patient a ns1:Frame .
+
+ns1:Card_game a ns1:Frame .
+
+ns1:Category a ns1:Frame .
+
+ns1:Cause_contact a ns1:Frame .
+
+ns1:Cause_to_begin_existence a ns1:Frame .
+
+ns1:Cause_to_perceive a ns1:Frame .
+
+ns1:Caused_change_of_state a ns1:Frame .
+
+ns1:Caused_downward_motion a ns1:Frame .
+
+ns1:Censorship a ns1:Frame .
+
+ns1:Certainty a ns1:Frame .
+
+ns1:Chemotherapy a ns1:Frame .
+
+ns1:Child_care a ns1:Frame .
+
+ns1:Citizen_evaluation_of_government a ns1:Frame .
+
+ns1:Citizen_rights a ns1:Frame .
+
+ns1:Citizens a ns1:Frame .
+
+ns1:Clear_paths_to_accessing_a_location a ns1:Frame .
+
+ns1:Closing_a_portal a ns1:Frame .
+
+ns1:Coconut a ns1:Frame .
+
+ns1:Community a ns1:Frame .
+
+ns1:Component_of_building a ns1:Frame .
+
+ns1:Compulsion a ns1:Frame .
+
+ns1:Condition a ns1:Frame .
+
+ns1:Condition_of_physical_object a ns1:Frame .
+
+ns1:Confusion a ns1:Frame .
+
+ns1:Considering a ns1:Frame .
+
+ns1:Constituents a ns1:Frame .
+
+ns1:Constructed_Confinement a ns1:Frame .
+
+ns1:Corporation a ns1:Frame .
+
+ns1:Country a ns1:Frame .
+
+ns1:Crafting a ns1:Frame .
+
+ns1:Creating a ns1:Frame .
+
+ns1:Criticizing a ns1:Frame .
+
+ns1:Curriculum a ns1:Frame .
+
+ns1:Darkness a ns1:Frame .
+
+ns1:Debating a ns1:Frame .
+
+ns1:Decay a ns1:Frame .
+
+ns1:Degeneration a ns1:Frame .
+
+ns1:Degree a ns1:Frame .
+
+ns1:Delay a ns1:Frame .
+
+ns1:Depriving_thing a ns1:Frame .
+
+ns1:Destructive_force a ns1:Frame .
+
+ns1:Diagnosis_of_affliction a ns1:Frame .
+
+ns1:Differences_in_distance a ns1:Frame .
+
+ns1:Digestion a ns1:Frame .
+
+ns1:Diplomacy a ns1:Frame .
+
+ns1:Directed_vision a ns1:Frame .
+
+ns1:Disease_progression a ns1:Frame .
+
+ns1:Disease_spread a ns1:Frame .
+
+ns1:Dissect a ns1:Frame .
+
+ns1:Distinguishing a ns1:Frame .
+
+ns1:Dividing a ns1:Frame .
+
+ns1:Doubt a ns1:Frame .
+
+ns1:Draw_a_picture a ns1:Frame .
+
+ns1:Economic_competition a ns1:Frame .
+
+ns1:Economic_status a ns1:Frame .
+
+ns1:Educational_evaluation a ns1:Frame .
+
+ns1:Effort_to_survive a ns1:Frame .
+
+ns1:Enable_ability_to_access_locations a ns1:Frame .
+
+ns1:Entrapment a ns1:Frame .
+
+ns1:Environmental_harm a ns1:Frame .
+
+ns1:Environmental_restraints a ns1:Frame .
+
+ns1:Equality a ns1:Frame .
+
+ns1:Equalizing_quantities a ns1:Frame .
+
+ns1:Erase a ns1:Frame .
+
+ns1:Erectness a ns1:Frame .
+
+ns1:Erosion a ns1:Frame .
+
+ns1:Essence a ns1:Frame .
+
+ns1:Event a ns1:Frame .
+
+ns1:Experience a ns1:Frame .
+
+ns1:Experiencing_a_negative_state a ns1:Frame .
+
+ns1:Experiencing_an_economic_status a ns1:Frame .
+
+ns1:Facts a ns1:Frame .
+
+ns1:Feeding a ns1:Frame .
+
+ns1:Fighting_ministry a ns1:Frame .
+
+ns1:Finance a ns1:Frame .
+
+ns1:Financial_transaction a ns1:Frame .
+
+ns1:Fire a ns1:Frame .
+
+ns1:Firmness a ns1:Frame .
+
+ns1:Fixing a ns1:Frame .
+
+ns1:Fluid_containment a ns1:Frame .
+
+ns1:Food_preparation a ns1:Frame .
+
+ns1:Force_transfer a ns1:Frame .
+
+ns1:Forming_words a ns1:Frame .
+
+ns1:Forward_motion a ns1:Frame .
+
+ns1:Freedom a ns1:Frame .
+
+ns1:Freedom_of_action a ns1:Frame .
+
+ns1:Friendships a ns1:Frame .
+
+ns1:Front a ns1:Frame .
+
+ns1:Functionality a ns1:Frame .
+
+ns1:Funding_education a ns1:Frame .
+
+ns1:Geographic_feature a ns1:Frame .
+
+ns1:Government_debt a ns1:Frame .
+
+ns1:Government_legitimacy a ns1:Frame .
+
+ns1:Government_power a ns1:Frame .
+
+ns1:Grasp a ns1:Frame .
+
+ns1:Greed a ns1:Frame .
+
+ns1:Group_membership a ns1:Frame .
+
+ns1:Gun_law_decision-making a ns1:Frame .
+
+ns1:Gun_ownership a ns1:Frame .
+
+ns1:Gun_possession a ns1:Frame .
+
+ns1:Happiness a ns1:Frame .
+
+ns1:Hardness a ns1:Frame .
+
+ns1:Harm_to_living_entity a ns1:Frame .
+
+ns1:Heating_fluid a ns1:Frame .
+
+ns1:Heigth a ns1:Frame .
+
+ns1:Hell a ns1:Frame .
+
+ns1:Help a ns1:Frame .
+
+ns1:Hierarchy a ns1:Frame .
+
+ns1:Impediment_to_motion a ns1:Frame .
+
+ns1:Improving_a_state a ns1:Frame .
+
+ns1:Impurity a ns1:Frame .
+
+ns1:Inability_to_access_a_location a ns1:Frame .
+
+ns1:Increase_ease_of_action a ns1:Frame .
+
+ns1:Increase_ease_of_motion a ns1:Frame .
+
+ns1:Increase_size a ns1:Frame .
+
+ns1:Information a ns1:Frame .
+
+ns1:International_Relations a ns1:Frame .
+
+ns1:Intimacy a ns1:Frame .
+
+ns1:LIfe a ns1:Frame .
+
+ns1:Labor a ns1:Frame .
+
+ns1:Lack_of_impediment_to_motion a ns1:Frame .
+
+ns1:Laissez-faire_market a ns1:Frame .
+
+ns1:Large_geographic_features a ns1:Frame .
+
+ns1:Lead a ns1:Frame .
+
+ns1:Liberal_market a ns1:Frame .
+
+ns1:Lightness a ns1:Frame .
+
+ns1:Limited_resource a ns1:Frame .
+
+ns1:Linguistic_activity a ns1:Frame .
+
+ns1:Living_with_Cancer a ns1:Frame .
+
+ns1:Location a ns1:Frame .
+
+ns1:Logical_structure a ns1:Frame .
+
+ns1:Loosing a ns1:Frame .
+
+ns1:Love_gesture a ns1:Frame .
+
+ns1:Magic a ns1:Frame .
+
+ns1:Making a ns1:Frame .
+
+ns1:Marriage a ns1:Frame .
+
+ns1:Mass a ns1:Frame .
+
+ns1:Measuring a ns1:Frame .
+
+ns1:Medicine a ns1:Frame .
+
+ns1:Meeting a ns1:Frame .
+
+ns1:Memorization a ns1:Frame .
+
+ns1:Moral_authority a ns1:Frame .
+
+ns1:Moral_corruption a ns1:Frame .
+
+ns1:Moral_goodness a ns1:Frame .
+
+ns1:Moral_order a ns1:Frame .
+
+ns1:Motion-affecting_objects a ns1:Frame .
+
+ns1:Motion_away_from_a_location a ns1:Frame .
+
+ns1:Motion_away_from_an_undesirable_location a ns1:Frame .
+
+ns1:Motion_impediment a ns1:Frame .
+
+ns1:Motion_in_a_path a ns1:Frame .
+
+ns1:Motion_to_a_destination a ns1:Frame .
+
+ns1:Multiplex a ns1:Frame .
+
+ns1:Murderer a ns1:Frame .
+
+ns1:Natural_disaster a ns1:Frame .
+
+ns1:Natural_order a ns1:Frame .
+
+ns1:Natural_resource a ns1:Frame .
+
+ns1:Negatively_evaluated_condition a ns1:Frame .
+
+ns1:Nuclear_family a ns1:Frame .
+
+ns1:Nurturance a ns1:Frame .
+
+ns1:Nutritious_food a ns1:Frame .
+
+ns1:Object_Construction a ns1:Frame .
+
+ns1:Obscenity a ns1:Frame .
+
+ns1:Obtain_medicine a ns1:Frame .
+
+ns1:Ocean a ns1:Frame .
+
+ns1:Operating_a_machine a ns1:Frame .
+
+ns1:Over_limits a ns1:Frame .
+
+ns1:Overeating a ns1:Frame .
+
+ns1:Paperwork a ns1:Frame .
+
+ns1:Parental_authority a ns1:Frame .
+
+ns1:Partnership a ns1:Frame .
+
+ns1:Paths_out_of_a_location a ns1:Frame .
+
+ns1:Patient a ns1:Frame .
+
+ns1:Persistence a ns1:Frame .
+
+ns1:Personal_preferance a ns1:Frame .
+
+ns1:Pest a ns1:Frame .
+
+ns1:Phase_treatment a ns1:Frame .
+
+ns1:Physical_Restraining_of_Mouth a ns1:Frame .
+
+ns1:Physical_connection a ns1:Frame .
+
+ns1:Physical_impediments_to_motion a ns1:Frame .
+
+ns1:Physical_pain a ns1:Frame .
+
+ns1:Physical_path a ns1:Frame .
+
+ns1:Physical_struggle a ns1:Frame .
+
+ns1:Physical_weakness a ns1:Frame .
+
+ns1:Place a ns1:Frame .
+
+ns1:Placing_in_a_protected_location a ns1:Frame .
+
+ns1:Political_region a ns1:Frame .
+
+ns1:Portals a ns1:Frame .
+
+ns1:Positivity_scale a ns1:Frame .
+
+ns1:Possession_change a ns1:Frame .
+
+ns1:Proximal_distal a ns1:Frame .
+
+ns1:Psychological_fixation a ns1:Frame .
+
+ns1:Psychological_harm a ns1:Frame .
+
+ns1:Punishment a ns1:Frame .
+
+ns1:Quality a ns1:Frame .
+
+ns1:Reasoning a ns1:Frame .
+
+ns1:Release_liquid a ns1:Frame .
+
+ns1:Resource_container a ns1:Frame .
+
+ns1:Resource_transfer a ns1:Frame .
+
+ns1:River a ns1:Frame .
+
+ns1:Roleplay a ns1:Frame .
+
+ns1:Rower a ns1:Frame .
+
+ns1:Sadness a ns1:Frame .
+
+ns1:Searching a ns1:Frame .
+
+ns1:Selection a ns1:Frame .
+
+ns1:Self-initiated_state_change a ns1:Frame .
+
+ns1:Sentence a ns1:Frame .
+
+ns1:Separation a ns1:Frame .
+
+ns1:Servant a ns1:Frame .
+
+ns1:Share_information a ns1:Frame .
+
+ns1:Shepherding a ns1:Frame .
+
+ns1:Smelling a ns1:Frame .
+
+ns1:Social_status a ns1:Frame .
+
+ns1:Solution a ns1:Frame .
+
+ns1:Solving_a_problem a ns1:Frame .
+
+ns1:Space a ns1:Frame .
+
+ns1:Spelling a ns1:Frame .
+
+ns1:Steering_a_boat a ns1:Frame .
+
+ns1:Stop_airflow a ns1:Frame .
+
+ns1:Straight_path a ns1:Frame .
+
+ns1:Sympathy a ns1:Frame .
+
+ns1:System a ns1:Frame .
+
+ns1:Taste a ns1:Frame .
+
+ns1:Theft a ns1:Frame .
+
+ns1:Ticket a ns1:Frame .
+
+ns1:Trespassing a ns1:Frame .
+
+ns1:Trust_relationship a ns1:Frame .
+
+ns1:Vertical_position a ns1:Frame .
+
+ns1:Vertical_structure a ns1:Frame .
+
+ns1:Violence a ns1:Frame .
+
+ns1:Visual_evaluation a ns1:Frame .
+
+ns1:Visual_field a ns1:Frame .
+
+ns1:Voting a ns1:Frame .
+
+ns1:Water_Confinement a ns1:Frame .
+
+ns1:Wealth_redistribution a ns1:Frame .
+
+ns1:Weed a ns1:Frame .
+
+ns1:Weighing a ns1:Frame .
+
+ns1:Weight a ns1:Frame .
+
+ns1:Welfare a ns1:Frame .
+
+ns1:Worsening a ns1:Frame .
+
+ns1:Worship a ns1:Frame .
+
+ns1:Writing a ns1:Frame .
+
+ns1:Zealotry a ns1:Frame .
+
+ns1:loseManhood a ns1:Frame .
+
+ns1:notHavingTesticles a ns1:Frame .
+
+ns1:robzhn1 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/robzhn/update_mi_novia_tiene_cancer_se_atiende_en/> ;
+    ns2:hasSentenceID 1 ;
+    ns2:hasVerbalization "Quizás te podemos ayudar con eso si teniendo algo de plata es más rápido/fácil." ;
+    ns2:hasWordIndex 25 .
+
+ns1:robzhn10 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/robzhn/update_mi_novia_tiene_cancer_se_atiende_en/> ;
+    ns2:hasSentenceID 10 ;
+    ns2:hasVerbalization "Yo tengo tres parientes con cáncer o al menos que tuvieron cáncer, dos abuelos, y un tío." ;
+    ns2:hasWordIndex 49 .
+
+ns1:robzhn4 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/robzhn/update_mi_novia_tiene_cancer_se_atiende_en/> ;
+    ns2:hasSentenceID 4 ;
+    ns2:hasVerbalization "Yo no sé si es buen o mal medico, lo unico que les recomiendo si les toca (o con cualquier otro tambien seria bueno) revisen TODO lo que escriba, que les explique paso a paso todo lo que escribió. y pregunten lo que se les ocurra, hay que hacer fuerza para preguntar algo, lo que sea... que hay de comer? algo" ;
+    ns2:hasWordIndex 163 .
+
+ns1:robzhn5 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/robzhn/update_mi_novia_tiene_cancer_se_atiende_en/> ;
+    ns2:hasSentenceID 5 ;
+    ns2:hasVerbalization "Buenas che, mucha fuerza para tu novia y gran gesto de amor el tuyo de acompañarla en este momento, te sorprendería cuánta gente se toma el palo cuando la vida se pone difícil." ;
+    ns2:hasWordIndex 16 .
+
+ns1:robzhn8 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/robzhn/update_mi_novia_tiene_cancer_se_atiende_en/> ;
+    ns2:hasSentenceID 8 ;
+    ns2:hasVerbalization "Que mierda que es el cancer lpm" ;
+    ns2:hasWordIndex 1 .
+
+ns1:s7s5jv1 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/s7s5jv/update_2_mi_novia_tiene_cancer_y_se_atiende_en/> ;
+    ns2:hasSentenceID 1 ;
+    ns2:hasVerbalization "Las respuestas que te dan cuando te dicen \"licitaciones\" para que la chupes... pediles data." ;
+    ns2:hasWordIndex 4 .
+
+ns1:s7s5jv5 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/s7s5jv/update_2_mi_novia_tiene_cancer_y_se_atiende_en/> ;
+    ns2:hasSentenceID 5 ;
+    ns2:hasVerbalization "Fuerza" ;
+    ns2:hasWordIndex 0 .
+
+ns1:s7s5jv6 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/s7s5jv/update_2_mi_novia_tiene_cancer_y_se_atiende_en/> ;
+    ns2:hasSentenceID 6 ;
+    ns2:hasVerbalization "que huevos viejo abrazo grande" ;
+    ns2:hasWordIndex 1 .
+
+ns1:12yxw6r14 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 14 ;
+    ns2:hasVerbalization "Tengo un coincido qué falleció por ese cancer, si bien en el testículos no causa los verdaderos problemas, cuando hace metástasis se convierte en un infierno." ;
+    ns2:hasWordIndex 27 .
+
+ns1:12yxw6r41 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 41 ;
+    ns2:hasVerbalization "A cuidarse los coquitos",
+        "Ese dolor NO es normal y al ir al urólogo se dieron cuenta que tenían cancer testicular" ;
+    ns2:hasWordIndex 31,
+        69 .
+
+ns1:12yxw6r9 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 9 ;
+    ns2:hasVerbalization "La verdad que todo el proceso es una mierda",
+        "Me paso parecido por el 2017, me detectaron un tumor en el testiculo izquierdo, me lo scaron y hice 4 ciclos de quimio. Ahora el año pasado me detectaron un tumorcillo en el derecho, demasiado grande para salvarlo (2cm de diametro) y mas encima era maligno asi que tuve que hacer 2 ciclo de quimioterapia que termine hace unas 3 semanas ya." ;
+    ns2:hasWordIndex 41,
+        78 .
+
+ns1:Access_to_an_object a ns1:Frame .
+
+ns1:Addressing_poverty a ns1:Frame .
+
+ns1:Agentive_causation a ns1:Frame .
+
+ns1:Assistance a ns1:Frame .
+
+ns1:Barrier_to_accessing_a_location a ns1:Frame .
+
+ns1:Bodily_functioning a ns1:Frame .
+
+ns1:Bully a ns1:Frame .
+
+ns1:Career a ns1:Frame .
+
+ns1:Cause_to_see a ns1:Frame .
+
+ns1:Caused_upward_motion a ns1:Frame .
+
+ns1:Center_periphery a ns1:Frame .
+
+ns1:Cleanliness a ns1:Frame .
+
+ns1:Commodity a ns1:Frame .
+
+ns1:Competition a ns1:Frame .
+
+ns1:Competitive_sport a ns1:Frame .
+
+ns1:Computer a ns1:Frame .
+
+ns1:Confinement a ns1:Frame .
+
+ns1:Constructed_Restraints a ns1:Frame .
+
+ns1:Contents a ns1:Frame .
+
+ns1:Debt a ns1:Frame .
+
+ns1:Democratic_ideology a ns1:Frame .
+
+ns1:Desire a ns1:Frame .
+
+ns1:Destructive_natural_process a ns1:Frame .
+
+ns1:Disease_treatment a ns1:Frame .
+
+ns1:Entity a ns1:Frame .
+
+ns1:Evaluation a ns1:Frame .
+
+ns1:Evil a ns1:Frame .
+
+ns1:Excess_body_weight a ns1:Frame .
+
+ns1:Existence a ns1:Frame .
+
+ns1:Factory a ns1:Frame .
+
+ns1:Gambling a ns1:Frame .
+
+ns1:Goodness a ns1:Frame .
+
+ns1:Group_of_related_ideas a ns1:Frame .
+
+ns1:Harm a ns1:Frame .
+
+ns1:Hunger a ns1:Frame .
+
+ns1:Immorality a ns1:Frame .
+
+ns1:Investment a ns1:Frame .
+
+ns1:Learning a ns1:Frame .
+
+ns1:Legislative_branch a ns1:Frame .
+
+ns1:Life_cycle a ns1:Frame .
+
+ns1:Lose_possession a ns1:Frame .
+
+ns1:Maze a ns1:Frame .
+
+ns1:Moral_action a ns1:Frame .
+
+ns1:Moving_object a ns1:Frame .
+
+ns1:Natural_process a ns1:Frame .
+
+ns1:Nature a ns1:Frame .
+
+ns1:Nurturant_parent_family a ns1:Frame .
+
+ns1:Political_party a ns1:Frame .
+
+ns1:Possessable_object a ns1:Frame .
+
+ns1:Pressure_in_a_container a ns1:Frame .
+
+ns1:Problem a ns1:Frame .
+
+ns1:Protect_against_contact a ns1:Frame .
+
+ns1:Protecting a ns1:Frame .
+
+ns1:Removed_Testicle a ns1:Frame .
+
+ns1:Resource_consumption a ns1:Frame .
+
+ns1:Restraints a ns1:Frame .
+
+ns1:Self_propelled_motion a ns1:Frame .
+
+ns1:Servitude a ns1:Frame .
+
+ns1:Similarity a ns1:Frame .
+
+ns1:Spatial_relation a ns1:Frame .
+
+ns1:Speaking a ns1:Frame .
+
+ns1:Stop_in_a_path a ns1:Frame .
+
+ns1:Strict_father_family a ns1:Frame .
+
+ns1:Temperature a ns1:Frame .
+
+ns1:Tending_to_plants a ns1:Frame .
+
+ns1:Territory a ns1:Frame .
+
+ns1:Textile a ns1:Frame .
+
+ns1:Theory a ns1:Frame .
+
+ns1:Thoughts a ns1:Frame .
+
+ns1:Throwing a ns1:Frame .
+
+ns1:Touching a ns1:Frame .
+
+ns1:Trajector_landmark a ns1:Frame .
+
+ns1:Upright_posture a ns1:Frame .
+
+ns1:Visual_obstruction a ns1:Frame .
+
+ns1:Well-being a ns1:Frame .
+
+ns1:Word a ns1:Frame .
+
+ns1:Work_scenario a ns1:Frame .
+
+ns1:robzhn7 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/robzhn/update_mi_novia_tiene_cancer_se_atiende_en/> ;
+    ns2:hasSentenceID 7 ;
+    ns2:hasVerbalization "En fin, si necesitas consultar lo que sea, adelante, ojalá sirva de algo mí experiencia.",
+        "Tuve cáncer testicular y pasé por dos ciclos de quimio, como monotributista de pedo tenía la obra social de unión personal y pude hacer el tratamiento con pocas burocracias e inoperancias." ;
+    ns2:hasWordIndex 17,
+        260 .
+
+ns1:s7s5jv3 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/s7s5jv/update_2_mi_novia_tiene_cancer_y_se_atiende_en/> ;
+    ns2:hasSentenceID 3 ;
+    ns2:hasVerbalization "Ahora trabajo en la industria de farma y sé que el Roffo es lider en Onco.",
+        "Según tengo entendido, el mejor hospital publico en Oncologia es el Roffo. No sé si te sirve a esta altura del tratamiento." ;
+    ns2:hasWordIndex 31,
+        74 .
+
+ns1:s7s5jv8 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/s7s5jv/update_2_mi_novia_tiene_cancer_y_se_atiende_en/> ;
+    ns2:hasSentenceID 8 ;
+    ns2:hasVerbalization "espero realmente que sigas a su lado y sepas que podes hacer todo el quilombo que quieras para poder buscar lo mejor para ella.",
+        "fuerza, yo tengo la suerte de no atenderme en lo público y estoy agradecida, los medicamentos y demáses swiss medical me los da en menos de 24 hs, ni hablar de estudios, cirugias y eso. espero realmente que sigas a su lado y sepas que podes hacer todo el quilombo que quieras para poder buscar lo mejor para ella." ;
+    ns2:hasWordIndex 0,
+        46 .
+
+ns1:12yxw6r18 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 18 ;
+    ns2:hasVerbalization "Amigo, que bueno que todo salió bien y que estés sanito y puedas seguir con tu vida normal." ;
+    ns2:hasWordIndex 6,
+        14 .
+
+ns1:Accompany a ns1:Frame .
+
+ns1:Activity a ns1:Frame .
+
+ns1:Advocacy a ns1:Frame .
+
+ns1:Aids_to_action a ns1:Frame .
+
+ns1:Animal a ns1:Frame .
+
+ns1:Animate_entity a ns1:Frame .
+
+ns1:Antagonistic_force a ns1:Frame .
+
+ns1:Argument a ns1:Frame .
+
+ns1:Attacking a ns1:Frame .
+
+ns1:Attribute a ns1:Frame .
+
+ns1:Being_at_a_High_Location a ns1:Frame .
+
+ns1:Being_at_a_Low_Location a ns1:Frame .
+
+ns1:Cancer_treatment a ns1:Frame .
+
+ns1:Company a ns1:Frame .
+
+ns1:Consciousness a ns1:Frame .
+
+ns1:Container a ns1:Frame .
+
+ns1:Create_object a ns1:Frame .
+
+ns1:Decision_making a ns1:Frame .
+
+ns1:Economic_difficulty a ns1:Frame .
+
+ns1:Economic_resource a ns1:Frame .
+
+ns1:Economy a ns1:Frame .
+
+ns1:Education a ns1:Frame .
+
+ns1:Emotional_intensity a ns1:Frame .
+
+ns1:Fierce_animal a ns1:Frame .
+
+ns1:Game a ns1:Frame .
+
+ns1:Guided_motion a ns1:Frame .
+
+ns1:Gun_rights a ns1:Frame .
+
+ns1:Health a ns1:Frame .
+
+ns1:Health_treatment a ns1:Frame .
+
+ns1:Ideology a ns1:Frame .
+
+ns1:Importance a ns1:Frame .
+
+ns1:Leadership a ns1:Frame .
+
+ns1:Legislative_action a ns1:Frame .
+
+ns1:Liquid a ns1:Frame .
+
+ns1:Market a ns1:Frame .
+
+ns1:Motion_to_a_location a ns1:Frame .
+
+ns1:Organization a ns1:Frame .
+
+ns1:Physical_affliction a ns1:Frame .
+
+ns1:Physical_competition a ns1:Frame .
+
+ns1:Physical_entity a ns1:Frame .
+
+ns1:Purity a ns1:Frame .
+
+ns1:Shit a ns1:Frame .
+
+ns1:Society a ns1:Frame .
+
+ns1:Source_path_goal a ns1:Frame .
+
+ns1:State a ns1:Frame .
+
+ns1:State_leadership a ns1:Frame .
+
+ns1:Status a ns1:Frame .
+
+ns1:Straightness a ns1:Frame .
+
+ns1:Strength a ns1:Frame .
+
+ns1:Support a ns1:Frame .
+
+ns1:Testicles a ns1:Frame .
+
+ns1:Understanding a ns1:Frame .
+
+ns1:Vehicular_motion a ns1:Frame .
+
+ns1:robzhn0 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/robzhn/update_mi_novia_tiene_cancer_se_atiende_en/> ;
+    ns2:hasSentenceID 0 ;
+    ns2:hasVerbalization "Como ya te dije, abrazo para uds. y fuerza para tu novia que la va a tener que remar pero esperemos que en un tiempo todo esto sea nada más que un mal recuerdo.",
+        "Si bien todavía la cosa no termina, al menos de a poco camina" ;
+    ns2:hasWordIndex 4,
+        6,
+        13,
+        36 .
+
+ns1:robzhn11 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/robzhn/update_mi_novia_tiene_cancer_se_atiende_en/> ;
+    ns2:hasSentenceID 11 ;
+    ns2:hasVerbalization "Bueno, perdon por la paja mental...la mejor para ustedes, metele fuerza que ella te va a necesitar entero, te lo digo por experiencia personal, el apoyo animico es super importante." ;
+    ns2:hasWordIndex 154,
+        155,
+        162 .
+
+ns1:s7s5jv2 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/s7s5jv/update_2_mi_novia_tiene_cancer_y_se_atiende_en/> ;
+    ns2:hasSentenceID 2 ;
+    ns2:hasVerbalization "A seguir metiendole como sea aunque duela, no tengamos fuerzas o hacer todo solo porque nadie ayuda, por los que más queremos siempre vamos a dar todo." ;
+    ns2:hasWordIndex 66,
+        73,
+        91 .
+
+ns1:s7s5jv4 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/s7s5jv/update_2_mi_novia_tiene_cancer_y_se_atiende_en/> ;
+    ns2:hasSentenceID 4 ;
+    ns2:hasVerbalization "Mirá yo al contrario con mi viejo tuve muy buena experiencia en el fuesmen (fundacion escuela de medicina nuclear), creo que solo hacen rayos ahí, no se si hay solo en mi provincia o en el resto del pais, el gran problema fue que Ioma reintegre siendo que vivimos en otra provincia y somos \"derivados\" a otra obra social mucho peor que la porqueria de Ioma, de todas formas eso, te tiro el dato de fuesmen x si necesita rayos",
+        "Muchisima fuerza a vos y tu novia" ;
+    ns2:hasWordIndex 80,
+        91 .
+
+ns1:12yxw6r27 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 27 ;
+    ns2:hasVerbalization "a mi mejor amigo le detectaron cáncer testicular en año pasado (tenia 24 años) le extirparon, le hicieron quimio y ahora esta bien físicamente pero psicológicamente esta echo mierda, ahora cualquier molestia o dolor que tiene lo asocia a que el cáncer volvió, además de que es tan inseguro (le tiene un miedo a que le digan que e poco hombre o weas similares) que el perdió el la practica (con posibilidad de contratación) ya que no le dijo nada a su jefe o demás compañeros cuando se estaba haciendo las quimios por lo cual falto varias veces y no lo justifico",
+        "lo mas jodido es que su hermano falleció de cáncer a los 19 hace varios años atrás lo cual lo dejo medio traumado y a el literal le dijeron que tenia cáncer justo la semana en la que le toco defender la tesis (también esta paranoico conque su tesis solo se la aprobaron por lastima y pena ya que el le conto a su profe guía sobre esta noticia) ",
+        "me a confesado de que si el cáncer vuelve otra ves el se va a pegar un balazo en la cabeza, no quiere vivir con el miedo constante de que va a volver o el estereotipo de que es poco hombre (en una reunió de la familia una prima hizo una broma inocente sobre eso y paso mas de 1 semana encencerrado en su pieza) va desde hace 1 año al psicólogo de oncología pero dice que no le a ayudado en nada " ;
+    ns2:hasWordIndex 32,
+        47,
+        67,
+        121,
+        230 .
+
+ns1:12yxw6r36 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/chile/comments/12yxw6r/sobre_el_c%C3%A1ncer_testicular_y_el_autocuidado/> ;
+    ns2:hasSentenceID 36 ;
+    ns2:hasVerbalization "Quedaste por tratamiento hormonal de por vida? al perder el coco, la produccion de testosterona deberia caer a la mitad lo que te dejaria en valores muy bajos.",
+        "Te explicaron porque? supongo que es la solución mas rapida y tal vez por el riesgo de que se propague. ",
+        "por lo que tengo entendido, cuando se detecta un tumor en el coco, lo primero es extirpar. " ;
+    ns2:hasWordIndex 15,
+        20,
+        30,
+        53 .
+
+ns1:Addressing_social_problems a ns1:Frame .
+
+ns1:Containing a ns1:Frame .
+
+ns1:Disgusting a ns1:Frame .
+
+ns1:Downward_motion a ns1:Frame .
+
+ns1:Eating a ns1:Frame .
+
+ns1:Financial_resource a ns1:Frame .
+
+ns1:Food a ns1:Frame .
+
+ns1:Forced_motion a ns1:Frame .
+
+ns1:Governing_action a ns1:Frame .
+
+ns1:Group a ns1:Frame .
+
+ns1:Gun_control_legislation a ns1:Frame .
+
+ns1:Impoverished a ns1:Frame .
+
+ns1:Insanity a ns1:Frame .
+
+ns1:Object_manipulation a ns1:Frame .
+
+ns1:Opportunities a ns1:Frame .
+
+ns1:Parasite a ns1:Frame .
+
+ns1:Part_whole a ns1:Frame .
+
+ns1:Perception a ns1:Frame .
+
+ns1:Physical_strength a ns1:Frame .
+
+ns1:Romantic_relationship a ns1:Frame .
+
+ns1:Scale a ns1:Frame .
+
+ns1:Social_class a ns1:Frame .
+
+ns1:Treating_a_physical_affliction a ns1:Frame .
+
+ns1:Treatment a ns1:Frame .
+
+ns1:Upward_motion a ns1:Frame .
+
+ns1:Vehicle a ns1:Frame .
+
+ns1:robzhn2 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/robzhn/update_mi_novia_tiene_cancer_se_atiende_en/> ;
+    ns2:hasSentenceID 2 ;
+    ns2:hasVerbalization "Mi amiga se curó del cáncer de mama pero lamentablemente ahora, falta la resonancia, tendría cancer de hígado, estoy destrozado pero por suerte conseguimos lugar rápido para que se haga todo de nuevo, si tenemos suerte su oncólogo va a iniciar los trámites para hacerle tratamiento no invasivo y ahorrarse ooootra vez esa quimio de mierda pero como ya sabras es un dolor de pija.",
+        "Yo no se como es en zona oeste donde estas pero zona norte es un poco mas zafable para hacer todo aunque te lo digo desde ya, pelear contra el ministerio va a ser cosa de todos los dias",
+        "Yo pase por ésto con mi mejor amiga y la quimio lamentablemente es asi, si no te dan algo para la náuseas olvidate, mi amiga estuvo asi 6 meses antes de la operación bajando casi 20kg" ;
+    ns2:hasWordIndex 1,
+        68,
+        140,
+        147 .
+
+ns1:Anger a ns1:Frame .
+
+ns1:Burden a ns1:Frame .
+
+ns1:Causation a ns1:Frame .
+
+ns1:Change_of_state a ns1:Frame .
+
+ns1:Experiencing_a_state a ns1:Frame .
+
+ns1:Fluid_motion a ns1:Frame .
+
+ns1:Force a ns1:Frame .
+
+ns1:Gain_possession a ns1:Frame .
+
+ns1:Gun_control a ns1:Frame .
+
+ns1:Injurious_gun_use a ns1:Frame .
+
+ns1:Journey a ns1:Frame .
+
+ns1:Legislation_enactment a ns1:Frame .
+
+ns1:Money a ns1:Frame .
+
+ns1:Motion a ns1:Frame .
+
+ns1:Plants a ns1:Frame .
+
+ns1:Power a ns1:Frame .
+
+ns1:Race a ns1:Frame .
+
+ns1:Regulation a ns1:Frame .
+
+ns1:Social_problems a ns1:Frame .
+
+ns1:Substance a ns1:Frame .
+
+ns1:Thinking_about a ns1:Frame .
+
+ns1:Transfer_scenario a ns1:Frame .
+
+ns1:Being_at_a_location a ns1:Frame .
+
+ns1:Biological_entity a ns1:Frame .
+
+ns1:Bounded_region a ns1:Frame .
+
+ns1:Cognizing a ns1:Frame .
+
+ns1:Containment a ns1:Frame .
+
+ns1:Corruption a ns1:Frame .
+
+ns1:Democracy a ns1:Frame .
+
+ns1:Family a ns1:Frame .
+
+ns1:Life a ns1:Frame .
+
+ns1:Mind a ns1:Frame .
+
+ns1:Proximity a ns1:Frame .
+
+ns1:Purposeful_action a ns1:Frame .
+
+ns1:Seeing a ns1:Frame .
+
+ns1:Self_propelled_motion_to_a_destination a ns1:Frame .
+
+ns1:Social_group a ns1:Frame .
+
+ns1:s7s5jv9 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/s7s5jv/update_2_mi_novia_tiene_cancer_y_se_atiende_en/> ;
+    ns2:hasSentenceID 9 ;
+    ns2:hasVerbalization "La quinta neuróloga es mas idiota que la mierda, encima que uno esta asustado te trata como el culo",
+        "Muchos médicos son así, una cagada",
+        "así que ya no se que creer o uno no sabe que hacer porque por un lado tenes esto o dejar que la enfermedad avance",
+        "el siguiente le mando medicación no le cayo bien ninguna al tercer cambio se embolo y dijo \"y no se que hacer...\"",
+        "te da un medicamento agresivo que todavía no se lo pasaron que le va a quitar un tipo de defensas en teoría según lo que leí en internet no te lo dan si tuviste hepatitis," ;
+    ns2:hasWordIndex 6,
+        95,
+        179,
+        241,
+        316 .
+
+ns1:Body a ns1:Frame .
+
+ns1:Bureaucracy a ns1:Frame .
+
+ns1:Business a ns1:Frame .
+
+ns1:Communication a ns1:Frame .
+
+ns1:Crime a ns1:Frame .
+
+ns1:Difficulties_in_action a ns1:Frame .
+
+ns1:Educational_opportunities a ns1:Frame .
+
+ns1:Heat a ns1:Frame .
+
+ns1:Motion_impediments a ns1:Frame .
+
+ns1:Personal_weapon a ns1:Frame .
+
+ns1:Physical_structure a ns1:Frame .
+
+ns1:Size a ns1:Frame .
+
+ns1:Institution a ns1:Frame .
+
+ns1:Knowing a ns1:Frame .
+
+ns1:Law a ns1:Frame .
+
+ns1:Physical_combat a ns1:Frame .
+
+ns1:Relationship a ns1:Frame .
+
+ns1:Quantity a ns1:Frame .
+
+ns1:Resource a ns1:Frame .
+
+ns1:War a ns1:Frame .
+
+ns1:Wealth a ns1:Frame .
+
+ns1:Building a ns1:Frame .
+
+ns1:Control a ns1:Frame .
+
+ns1:Emotion a ns1:Frame .
+
+ns1:Idea a ns1:Frame .
+
+ns1:Poverty a ns1:Frame .
+
+ns1:Action a ns1:Frame .
+
+ns1:Complex_physical_object a ns1:Frame .
+
+ns1:Physical_harm a ns1:Frame .
+
+ns1:Rights a ns1:Frame .
+
+ns1:Time a ns1:Frame .
+
+ns1:s7s5jv7 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/s7s5jv/update_2_mi_novia_tiene_cancer_y_se_atiende_en/> ;
+    ns2:hasSentenceID 7 ;
+    ns2:hasVerbalization "Lo que mencionas de \"lo que necesites avisa\" se borran todos, solo mi familia estuvo detrás.",
+        "Los síntomas son miles, al principio aguantas bastante bien, pero la droga te va tirando progresivamente",
+        "No te voy a decir fuerza, se que ella está dando el 120%, es más de lo que permite el cuerpo, el solo experimentar eso ya es admirable, mando un abrazo a la distancia y deseo lo mejor para ella.",
+        "Tu novia va a pasar por miles capaz, muchas veces sufre tanto el enfermo como el que está al lado.",
+        "la droga es irritante, (cisplatino etoposido y bleomicina) has pasado ya tres años y aún cuesta que me encuentren venas para sacar sangre",
+        "no entiendo porque te están dando las mil vueltas con las drogas" ;
+    ns2:hasWordIndex 26,
+        160,
+        163,
+        281,
+        288,
+        329,
+        345,
+        352,
+        358 .
+
+ns1:Election a ns1:Frame .
+
+ns1:Possession a ns1:Frame .
+
+ns1:s7s5jv10 a ns2:Example ;
+    dcterms:source <https://www.reddit.com/r/argentina/comments/s7s5jv/update_2_mi_novia_tiene_cancer_y_se_atiende_en/> ;
+    ns2:hasSentenceID 10 ;
+    ns2:hasVerbalization "Metanle ganas que vienen bien",
+        "Para sumar, te tiro la experiencia que tengo con mi vieja",
+        "Va a tener sus días de altos y bajos, pero tratá de que solo sean momentos puntuales y no algo del día a día",
+        "a día de hoy tiene la misma vida que tenía antes de enfermarse",
+        "busquen a un oncólogo que les saque todas las dudas",
+        "busquen a un oncólogo que les saque todas las dudas, de ser necesario vayan anotandolas en papel a medida de que les vayan surgiendo así no se olvidan",
+        "dejar a alguien solo con sus pensamientos es muy jodido",
+        "la mente juega un rol muy importante en la enfermedad, si es necesario andá teniendo a mano la nota de psicólogos",
+        "les mando un abrazo y mucha fuerza",
+        "me alegra mucho que el tumor se haya achicado, que te den esas noticias cuando estás padeciendo la enfermedad te suben muchísimo el ánimo." ;
+    ns2:hasWordIndex 27,
+        36,
+        107,
+        320,
+        340,
+        342,
+        362,
+        382,
+        394,
+        412,
+        424 .
+
+ns1:Morality a ns1:Frame .
+
+ns1:Government a ns1:Frame .
+
+ns1:Government_institution a ns1:Frame .
+
+ns1:Machine a ns1:Frame .
+
+ns1:Taxation a ns1:Frame .
+
+ns1:Cancer a ns1:Frame .
+
+ns1:Disease a ns1:Frame .
+
+ns1:Improving_economic_status a ns1:Frame .
+
+ns1:Motion_along_a_path a ns1:Frame .
+
+ns1:Object a ns1:Frame .
+
+ns1:Person a ns1:Frame .
+
+ns1:Nation a ns1:Frame .
+
+ns1:Verticality a ns1:Frame .
+
